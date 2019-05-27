@@ -605,8 +605,8 @@ a:focus {
 
 .btn-yellow {
   color: #333;
-  background-color: #feca16;
-  border-color: #feca16;
+  background-color: #199CD8;
+  border-color: #199CD8;
 }
 
 .btn-green {
@@ -1604,7 +1604,7 @@ span.section-id {
   03.  PRELOAD SPINNER
   =========================================================================== */
 
-#loader-wrapper {
+/* #loader-wrapper {
   position: fixed;
   top: 0;
   left: 0;
@@ -1716,7 +1716,7 @@ span.section-id {
   }
 }
 
-
+ */
 
 
 /* ==========================================================================
@@ -1753,6 +1753,10 @@ span.section-id {
 /*------------------------------------------*/
 /*   NAVIGATION BAR    
 /*------------------------------------------*/
+
+.phone-header {
+  color: #199CD8 !important;
+}
 
 .navbar {
   padding: 0.75rem 1rem;
@@ -2073,7 +2077,7 @@ span.section-id {
 /*------------------------------------------*/
 
 #hero-1 {
-  background-image: url(../images/hero-1.jpg);
+  background-image: url(../images/DocStar-Images/Homepage-header@2x.jpg); 
   background-position: center bottom; 
   padding-top: 220px;
   padding-bottom: 190px;
@@ -2195,8 +2199,27 @@ span.section-id {
   padding-bottom: 140px;
 }
 */
+/* #hero-23 {
+  background: rgba(255, 255, 255, 0.7);
+  color: #fff;
+  height: 100vh;
+  position: relative;
+}
+#hero-23:before {
+  content: '';
+  background: url(../images/DocStar-Images/Homepage-header@2x.jpg) no-repeat center center/cover; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  padding-top: 250px;
+  padding-bottom: 160px;
+} */
+
 #hero-23 {
-  background-image: url(../images/hero-23.jpg); 
+  background-image: url(../images/DocStar-Images/Homepage-header@2x.jpg);
   padding-top: 250px;
   padding-bottom: 160px;
 }
@@ -3476,7 +3499,7 @@ ul.content-list li:last-child {
 }
 
 .content-3-img { 
-  background-image: url(../images/content-3.jpg);
+  background-image: url(../images/hero1-1920x1080.jpg); 
   background-repeat: no-repeat;
   background-position: center center;   
   background-size: cover;
@@ -3489,7 +3512,7 @@ ul.content-list li:last-child {
 
 
 .content-4-img { 
-  background-image: url(../images/content-4.jpg);
+  background-image: url(../images/hero1-1920x1080.jpg); 
   background-repeat: no-repeat;
   background-position: center center;   
   background-size: cover;
@@ -4362,7 +4385,7 @@ ul.content-list li:last-child {
 }
 
 .statistic-section.bg-image {
-  background-image: url(../images/statistic.jpg);
+  background-image: url(../images/stats-1920x900.jpg);
 }
 
 /*------------------------------------------*/
@@ -4739,7 +4762,7 @@ p.validity {
 }
 
 .reviews-section.bg-image {
-  background-image: url(../images/reviews.jpg);
+  background-image: url(../images/stats-1920x900.jpg);
 }
 
 /*------------------------------------------*/
@@ -4980,7 +5003,7 @@ p.testimonial-autor.deepblue-color {
 }
 
 .brands-section.bg-image {
-  background-image: url(../images/brands.jpg);
+  background-image: url(../images/1-1920x1080.jpg);
 }
 
 /*------------------------------------------*/
@@ -5081,7 +5104,7 @@ p.testimonial-autor.deepblue-color {
 }
 
 .cta-section.bg-image {
-  background-image: url(../images/call-to-action.jpg);
+  background-image: url(../images/stats-1920x900.jpg);
 }
 
 .cta-section.bg-purple {
@@ -5641,7 +5664,7 @@ a.share-ico:hover {
   =========================================================================== */
 
 .newsletter-section.bg-image {
-  background-image: url(../images/newsletter.jpg);
+  background-image: url(../images/1-1920x1080.jpg);
 }
 
 .newsletter-section.bg-purple,
@@ -6080,6 +6103,29 @@ span.support-number {
 /* ==========================================================================
   26. FOOTER
   =========================================================================== */
+.container .footerContainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+  .footerBox {
+  background-color: #2E2D7D;
+  height: 158px;
+}
+
+.footerText {
+  color: #fff;
+  flex: 1;
+}
+
+.footerLogo {
+  flex: 1;
+}
+
+.footerImg {
+  height: 60px;
+}
 
 .footer {
   padding-top: 80px;
@@ -6108,6 +6154,7 @@ span.support-number {
 
 .footer-copyright p {
   margin-bottom: 0;
+  color: #fff;
 }
 
 .footer-copyright p span {
@@ -6335,6 +6382,7 @@ span.support-number {
 /*------------------------------------------*/
 
 .bottom-footer {
+  flex: 1;
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -6482,23 +6530,23 @@ span.support-number {
 }
 
 #about-hero {
-  background-image: url(../images/about-hero.jpg);
+  background-image: url(../images/stats-1920x900.jpg);
 }
 
 #services-hero {
-  background-image: url(../images/services-hero.jpg);
+  background-image: url(../images/stats-1920x900.jpg);
 }
 
 #team-hero {
-  background-image: url(../images/team-hero.jpg);
+  background-image: url(../images/stats-1920x900.jpg);
 }
 
 #pricing-hero {
-  background-image: url(../images/pricing-hero.jpg);
+  background-image: url(../images/stats-1920x900.jpg);
 }
 
 #blog-listing-hero {
-  background-image: url(../images/blog-listing-hero.jpg);
+  background-image: url(../images/stats-1920x900.jpg);
 }
 
 /*------------------------------------------*/

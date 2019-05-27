@@ -5,3 +5,13 @@
  */
 
 // You can delete this file if you're not using it
+
+import "./src/css/bootstrap.min.css"
+import "./src/css/fa-svg-with-js.css"
+import "./src/css/flaticon.css"
+import "./src/css/flexslider.css"
+import "./src/css/magnific-popup.css"
+import "./src/css/responsive.css"
+import "./src/css/slick-theme.css"
+import "./src/css/slick.css"
+import "./src/css/style.css" 	
