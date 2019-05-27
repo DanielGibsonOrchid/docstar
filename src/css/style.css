@@ -453,14 +453,14 @@ a:focus {
 /*------------------------------------------*/
 
 .btn {
-  background-color: #ff3366;
+  background-color: #199CD8;
   color: #fff;
   font-size: 1rem;
   line-height: 1;
   font-weight: 400;
   letter-spacing: 0;
   padding: 1.025rem 2.5rem;
-  border: 2px solid #ff3366;
+  border: 2px solid #199CD8;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;      
@@ -533,9 +533,9 @@ a:focus {
  
 .btn-tra,
 .white-color .btn-tra {
-  color: #ff3366;
+  color: #199CD8;
   background-color: transparent;
-  border-color: #ff3366;
+  border-color: #199CD8;
 }
 
 .btn-tra-purple {
@@ -600,11 +600,11 @@ a:focus {
 
 .white-color .btn-white span,
 .white-color .btn-yellow span {
-  color: #333;
+  color: #fff;
 }
 
 .btn-yellow {
-  color: #333;
+  color: #fff;
   background-color: #199CD8;
   border-color: #199CD8;
 }
@@ -639,8 +639,8 @@ a:focus {
 
 .btn:hover {
   color: #fff;
-  background-color: #e62354;
-  border-color: #e62354;
+  background-color: #199CD8;
+  border-color: #199CD8;
 }
 
 .btn-arrow:hover .svg-inline--fa, 
@@ -733,7 +733,7 @@ a:focus {
 }
 
 .btn-yellow:hover {
-  color: #333;
+  color: #fff;
   background-color: #f6c007;
   border-color: #f6c007;
 }
@@ -6109,9 +6109,19 @@ span.support-number {
   text-align: center;
 }
 
-  .footerBox {
+.footerBox {
   background-color: #2E2D7D;
   height: 158px;
+}
+
+.footerBoxLight {
+  background-color: #fff;
+  height: 158px;
+}
+
+.footerTextLight {
+  color: #2E2D7D;
+  flex: 1;
 }
 
 .footerText {
@@ -6155,6 +6165,15 @@ span.support-number {
 .footer-copyright p {
   margin-bottom: 0;
   color: #fff;
+}
+
+.footer-copyright-light p {
+  margin-bottom: 0;
+  color: #2E2D7D;
+}
+
+.footer-copyright-light p span {
+  font-weight: 700;
 }
 
 .footer-copyright p span {
@@ -6530,11 +6549,15 @@ span.support-number {
 }
 
 #about-hero {
-  background-image: url(../images/stats-1920x900.jpg);
+  background-image: url(../images/DocStar-Images/About-Header@2x.jpg);
+}
+
+#contact-hero {
+  background-image: url(../images/DocStar-Images/Contact-Header@2x.jpg);
 }
 
 #services-hero {
-  background-image: url(../images/stats-1920x900.jpg);
+  background-image: url(../images/DocStar-Images/Services-Header@2x.jpg);
 }
 
 #team-hero {

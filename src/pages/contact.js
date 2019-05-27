@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import HeaderScripts from "../components/header-scripts"
 import HeaderMenu from "../components/header-menu"
-import FooterDark from "../components/footer-dark"
+import FooterLight from "../components/footer-light"
 import GoogleMap from "../components/google-map"
 
 const Contact = () => (
@@ -15,15 +15,25 @@ const Contact = () => (
 
       <HeaderMenu />
 
-      {/* CONTACTS GOOGLE MAP
-			============================================= */}
-      <div id="contacts-map" className="division">
-        <div className="row">
-          <div className="col-md-12">
-            <div id="gmap" className="gmap" />
-          </div>
-        </div>	{/* End row */}
-      </div>	{/* END CONTACTS GOOGLE MAP */}
+     {/* CONTACT PAGE HERO ============================================= */}	
+     <section id="contact-hero" className="bg-scroll page-hero-section division">
+        <div className="container">	
+          <div className="row">
+            
+            {/* HERO TEXT */}
+            <div className="col-md-10 offset-md-1">
+              <div className="hero-txt text-center white-color">
+                
+                {/* Title */}
+                <h2 className="h2-xl">Say Hello!</h2>
+                
+                {/* Text */}
+                <p className="p-hero">How can we help you today?</p>
+              </div>
+            </div>	{/* END HERO TEXT */}
+          </div>	  {/* End row */}
+        </div>	   {/* End container */} 	
+      </section>	{/* END CONTACT PAGE HERO */}
 
       {/* CONTACTS-3 ============================================= */}
       <section id="contacts-3" className="bg-clouds wide-60 contacts-section division">
@@ -32,11 +42,9 @@ const Contact = () => (
           <div className="row">
             <div className="col-lg-10 offset-lg-1 section-title">
               {/* Title 	*/}
-              <h2 className="h2-xs">Need Help? Say Hello</h2>
+              {/* <h2 className="h2-xs">Need Help? Say Hello</h2> */}
               {/* Text */}
-              <p>Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero tempus, tempor posuere
-                ligula varius impedit enim tempor sapien
-          </p>
+              <p>Simply fill in the form below and someone will get in touch shortly.</p>
             </div>
           </div> 	 {/* END SECTION TITLE */}
 
@@ -48,23 +56,21 @@ const Contact = () => (
                 <div className="col-md-4">
 
                   {/* LOCATION */}
-                  <div className="contact-box animated" data-animation="fadeInUp" data-animation-delay={300}>
-                    <h5 className="h5-sm">Our Location</h5>
-                    <p className="grey-color">121 King Street, Melbourne, <br /> Victoria 3000 Australia</p>
+                  <div className="contact-box">
+                    <h5 className="h5-sm">Postal Address</h5>
+                    <p className="grey-color">PO Box 56054, Dominion Rd, <br /> Auckland 1446</p>
                   </div>
 
                   {/* PHONES */}
-                  <div className="contact-box animated" data-animation="fadeInUp" data-animation-delay={400}>
-                    <h5 className="h5-sm">Contact Phones</h5>
-                    <p className="grey-color">Phone : +12 3 3456 7890</p>
-                    <p className="grey-color">Fax : +12 9 8765 4321</p>
+                  <div className="contact-box">
+                    <h5 className="h5-sm">Let’s Talk</h5>
+                    <p className="grey-color">DDI: +64 27 229 5108</p>
                   </div>
 
                   {/* WORKING HOURS */}
-                  <div className="contact-box animated" data-animation="fadeInUp" data-animation-delay={500}>
-                    <h5 className="h5-sm">Working Hours</h5>
-                    <p className="grey-color">Mon - Fri: 8:30am - 7:30pm</p>
-                    <p className="grey-color">Sat: 8:30am - 3:30pm</p>
+                  <div className="contact-box">
+                    <h5 className="h5-sm">Follow Us</h5>
+                    <p className="grey-color">LinkedIn</p>
                   </div>
                 </div>	{/* END CONTACTS INFO */}
 
@@ -107,11 +113,9 @@ const Contact = () => (
         </div>	   {/* End container */}
       </section>	{/* END CONTACTS-3 */}
 
-      <FooterDark />
+      <FooterLight />
 
     </div>	{/* END PAGE CONTENT */}
-
-    <GoogleMap />
 
   </div>
 )
