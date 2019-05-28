@@ -1005,6 +1005,8 @@
   .project-description h5.h5-sm { margin-top: 2px; }
   .project-description span { font-size: 0.95rem; font-weight: 500; }
 
+  .masonry-wrap { display: flex; flex-direction: column; align-items: center;}
+
   /* STATISTIC */
   #statistic-1 { padding-top: 70px; padding-bottom: 40px; }
   .statistic-title p { padding: 0; }
@@ -1356,6 +1358,8 @@
 
   .project-description h5.h5-sm { margin-top: 2px; }
   .project-description span { font-size: 0.95rem; font-weight: 500; }
+
+  .masonry-wrap { display: flex; flex-direction: column; align-items: center;}
 
   /* STATISTIC */
   #statistic-1 { padding-top: 70px; padding-bottom: 40px; }
@@ -1824,6 +1828,9 @@
   .masonry-wrap .portfolio-item,
   #portfolio-3 .masonry-wrap .portfolio-item { width: 100%; }
 
+  .masonry-wrap { display: flex; flex-direction: column; align-items: center;}
+
+
   /* STATISTIC */
   #statistic-2 p { padding: 0; }
 
@@ -2263,6 +2270,9 @@
 
   .masonry-wrap .portfolio-item,
   #portfolio-3 .masonry-wrap .portfolio-item { width: 100%; }
+
+  .masonry-wrap { display: flex; flex-direction: column; align-items: center;}
+
 
   /* STATISTIC */
   #statistic-2 p { padding: 0; }
@@ -2948,6 +2958,8 @@
 
   /* QUICK FORM */
   #quick-form { display: none; }
+
+  .masonry-wrap { display: flex; flex-direction: column; align-items: center;}
 
 
 }

@@ -1,9 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import HeaderScripts from "../components/header-scripts"
 import HeaderMenu from "../components/header-menu"
 import FooterLight from "../components/footer-light"
-import GoogleMap from "../components/google-map"
 
 const Contact = () => (
   <div>
@@ -44,7 +42,7 @@ const Contact = () => (
               {/* Title 	*/}
               {/* <h2 className="h2-xs">Need Help? Say Hello</h2> */}
               {/* Text */}
-              <p>Simply fill in the form below and someone will get in touch shortly.</p>
+              <p className="grey-color">Simply fill in the form below and someone will get in touch shortly.</p>
             </div>
           </div> 	 {/* END SECTION TITLE */}
 
@@ -64,13 +62,13 @@ const Contact = () => (
                   {/* PHONES */}
                   <div className="contact-box">
                     <h5 className="h5-sm">Let’s Talk</h5>
-                    <p className="grey-color">DDI: +64 27 229 5108</p>
+                    <a href="tel:+64272295108" target="_blank" className="grey-color">DDI: +64 27 229 5108</a>
                   </div>
 
                   {/* WORKING HOURS */}
                   <div className="contact-box">
                     <h5 className="h5-sm">Follow Us</h5>
-                    <p className="grey-color">LinkedIn</p>
+                    <a href="https://www.linkedin.com/in/daniel-heynen/" target="_blank" className="grey-color">LinkedIn</a>
                   </div>
                 </div>	{/* END CONTACTS INFO */}
 

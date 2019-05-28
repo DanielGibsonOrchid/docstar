@@ -6,9 +6,6 @@ import Footer from "../components/footer"
 
 import aboutImage550x720 from "../images/DocStar-Images/About-image1@2x.jpg"
 import aboutImage550x740 from "../images/DocStar-Images/About-Image2@2x.jpg"
-import image700x700 from "../images/portfolio/construct-700x700.jpg"
-import imageTeamPlus from "../images/team-6.jpg"
-import image300x200 from "../images/brand-300x200.jpg"
 
 
 const About = () => ( 

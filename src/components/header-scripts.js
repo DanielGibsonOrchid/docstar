@@ -3,10 +3,7 @@ import React from "react"
 import Helmet from "react-helmet"
 // import PropTypes from "prop-types"
 
-import favicon16 from "../images/favicon.ico"
-import favicon76 from "../images/apple-touch-icon-76x76.png"
-import favicon120 from "../images/apple-touch-icon-120x120.png"
-import favicon152 from "../images/apple-touch-icon-152x152.png"
+import favicon from "../images/favicon.ico"
 
 
 const HeaderScripts = () => (
@@ -37,11 +34,12 @@ const HeaderScripts = () => (
       { rel: "icon", type: "image/png", sizes: "120x120", href: `${favicon120}` },
       { rel: "icon", type: "image/png", sizes: "152x152", href: `${favicon152}` },
     ]} */}
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png" />    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="shortcut icon" href={favicon} type="image/x-icon" />
+    <link rel="icon" href={favicon} type="image/x-icon" />
+    {/* <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png" />    
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" /> */}
     
     {/* GOOGLE FONTS */}
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet" /> 		

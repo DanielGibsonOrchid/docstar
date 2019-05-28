@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import docstarLogo from "../images/DocStar-Images/TopNAV-DOCSTAR-logo-white@2x.png"
 
@@ -34,7 +35,8 @@ const HeaderMenu = () => (
 								<Link to="/services/" className="nav-link">Services</Link>
 							</li>
 							<li className="nav-item nl-simple">
-								<Link to="/portfolio/" className="nav-link">Portfolio</Link>
+								{/* <Link to="/portfolio/" className="nav-link">Portfolio</Link> */}
+								<AnchorLink href='#portfolio-1' className="nav-link">Portfolio</AnchorLink>
 							</li>
 							<li className="nav-item nl-simple">
 								<Link to="/contact/" className="nav-link">Contact</Link>
@@ -50,5 +52,6 @@ const HeaderMenu = () => (
 		</header>	{/* END HEADER */}
 	</div>
 )
+
 
 export default HeaderMenu

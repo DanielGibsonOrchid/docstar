@@ -7,7 +7,7 @@ const FooterLight = () => (
   <div className="container">
   <div className="footerContainer">
     <div className="footerTextLight">
-      <p>Building Documentation.</p>
+      <p className="footer-text-1">Building Documentation.</p>
     </div>
 
     <div className="footerLogo">

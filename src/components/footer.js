@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 import docstarLogo from "../images/DocStar-Images/TopNAV-DOCSTAR-logo-white@2x.png"
 
@@ -22,7 +23,7 @@ const Footer = () => (
           {/* LOCATION */}
           <div className="col-sm-6 col-lg-3">
             <div className="contact-box">
-              <i className="blue-color fas fa-map-marker-alt" />
+              <div className="footer-icon-1" />
               <h5 className="h5-sm">Postal Address</h5>
               <p className="grey-color">PO Box 56054, Dominion Rd,<br /> Auckland 1446</p>
             </div>
@@ -30,15 +31,15 @@ const Footer = () => (
           {/* PHONES */}
           <div className="col-sm-6 col-lg-3">
             <div className="contact-box">
-              <i className="blue-color fas fa-phone-square" />
+              <div className="footer-icon-2" />
               <h5 className="h5-sm">Let's Talk</h5>
-              <p className="grey-color">DDI: +64 27 229 5108</p>
+              <a href="tel:+64272295108" target="_blank" className="grey-color">DDI: +64 27 229 5108</a>
             </div>
           </div>
           {/* EMAIL */}
           <div className="col-sm-6 col-lg-3">
             <div className="contact-box">
-              <i className="blue-color far fa-envelope-open" />
+              <div className="footer-icon-3" />
               <h5 className="h5-sm">Drop A Line</h5>
               <p className="grey-color"><a href="mailto:yourdomain@mail.com">enquiries@docstar.co.nz</a></p>
             </div>
@@ -46,9 +47,9 @@ const Footer = () => (
           {/* WORKING HOURS */}
           <div className="col-sm-6 col-lg-3">
             <div className="contact-box">
-              <i className="blue-color far fa-clock" />
+              <div className="footer-icon-4" />
               <h5 className="h5-sm">Follow Us</h5>
-              <a href="#" className="grey-color">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/daniel-heynen/" target="_blank" className="grey-color">LinkedIn</a>
             </div>
           </div>
         </div>	{/* END CONTACTS INFO */}
@@ -59,11 +60,13 @@ const Footer = () => (
       <div className="container">
         <div className="footerContainer">
           <div className="footerText">
-            <p>Building Documentation.</p>
+            <p className="footer-text-1">Building Documentation.</p>
           </div>
 
           <div className="footerLogo">
-            <img src={docstarLogo} alt="Docstar site logo" className="footerImg" />
+            <Link to="/">
+              <img src={docstarLogo} alt="footer-logo" className="footerImg" />
+            </Link>
           </div>
 
           {/* FOOTER COPYRIGHT */}

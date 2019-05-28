@@ -1,8 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import HeaderScripts from "../components/header-scripts"
 import HeaderMenu from "../components/header-menu"
-import FooterDark from "../components/footer-dark"
+import Footer from "../components/footer"
 
 import image700x700 from "../images/portfolio/construct-700x700.jpg"
 import image550x740 from "../images/image-02.png"
@@ -359,7 +358,7 @@ const Portfolio = () => (
         </div>	   {/* End container */}
       </section>	{/* END CALL TO ACTION-3 */}
       
-      <FooterDark />
+      <Footer />
 
     </div> {/* END PAGE CONTENT */}
 

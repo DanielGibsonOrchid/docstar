@@ -1,17 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
+
 import HeaderScripts from "../components/header-scripts"
 import HeaderMenu from "../components/header-menu"
 import Footer from "../components/footer"
 
-import image550x750 from "../images/image-11-550x750.jpg"
-import image800x600 from "../images/image-20-800x600.jpg"
-import image800x800 from "../images/image-21-800x800.jpg"
-import image700x700 from "../images/portfolio/construct-700x700.jpg"
-import image300x200 from "../images/brand-300x200.jpg"
-import image120x120 from "../images/review-author-120x120.jpg"
 
-import headerImage from "../images/DocStar-Images/Homepage-header@2x.jpg"
+import image700x700 from "../images/portfolio/construct-700x700.jpg"
+
 import whyChooseImage from "../images/DocStar-Images/Why-Choose-image@2x.jpg"
 import OMImage from "../images/DocStar-Images/O&M-image@2x.jpg"
 import CADImage from "../images/DocStar-Images/CAD-image@2x.jpg"
@@ -118,7 +114,7 @@ const Home = () => (
                 {/* Text */}
                 <p>Docster provides a professional, functional and accurate O&M manual service, creating building documentation you will be proud to hand over to your client</p>
                 {/* Button */}
-                <a href="pricing.html" className="btn btn-yellow btn-arrow">
+                <a href="services" className="btn btn-yellow btn-arrow">
                   <span>Read More <i className="fas fa-angle-double-right" /></span>
                 </a>
               </div>
@@ -253,168 +249,6 @@ const Home = () => (
           </div>	 {/* END PORTFOLIO IMAGES HOLDER */}
         </div>	    {/* End container */}
       </section>	{/* END PORTFOLIO-1 */}
-      {/* STATISTIC-1
-			============================================= */}
-      {/* <div id="statistic-1" className="bg-scroll bg-yellow statistic-section division">
-        <div className="container">
-          <div className="row"> */}
-            {/* STATISTIC BLOCK #1 */}
-            {/* <div className="col-md-3">
-              <div className="statistic-block text-center">
-                <div className="statistic-number txt-700">409</div>
-                <h5 className="h5-sm">Finished Projectss</h5>
-                <p className="p-sm">Viverra sem magna egestas</p>
-              </div>
-            </div> */}
-            {/* STATISTIC BLOCK #2 */}
-            {/* <div className="col-md-3">
-              <div className="statistic-block text-center">
-                <div className="statistic-number txt-700">1639</div>
-                <h5 className="h5-sm">Happy Clients</h5>
-                <p className="p-sm">Donec enim ipsum porta justo</p>
-              </div>
-            </div> */}
-            {/* STATISTIC BLOCK #3 */}
-            {/* <div className="col-md-3">
-              <div className="statistic-block text-center">
-                <div className="statistic-number txt-700">869</div>
-                <h5 className="h5-sm">Followers</h5>
-                <p className="p-sm">Velna iaculis odio auctor</p>
-              </div>
-            </div> */}
-            {/* STATISTIC BLOCK #4 */}
-            {/* <div className="col-md-3">
-              <div className="statistic-block text-center">
-                <div className="statistic-number txt-700">901</div>
-                <h5 className="h5-sm">Cups of Coffee</h5>
-                <p className="p-sm">Integer congue impedit magna</p>
-              </div>
-            </div> */}
-          {/* </div>	End row */}
-        {/* </div>	 End container */}
-      {/* </div>	END STATISTIC-1 */}
-      {/* BRANDS-2
-			============================================= */}
-      {/* <div id="brands-2" className="bg-scroll wide-70 brands-section division">
-        <div className="container"> */}
-          {/* BRANDS TITLE */}
-          {/* <div className="row">
-            <div className="col-md-10 offset-md-1">
-              <div className="brands-title"> */}
-                {/* Title */}
-                {/* <h3 className="h3-sm">Trusted by thousands of companies</h3> */}
-                {/* Text */}
-                {/* <p className="p-md grey-color">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis
-                  libero tempus, tempor posuere ligula varius augue luctus donec volutpat sapien
-            </p>
-              </div>
-            </div>
-          </div> */}
-          {/* BRANDS IMAGES */}
-          {/* <div className="row"> */}
-            {/* BRAND LOGO IMAGE */}
-            {/* <div className="col-sm-4 col-md-3 brand-logo">
-              <img className="img-fluid" src={image300x200} alt="brand-logo" />
-            </div> */}
-            {/* BRAND LOGO IMAGE */}
-            {/* <div className="col-sm-4 col-md-3 brand-logo">
-              <img className="img-fluid" src={image300x200} alt="brand-logo" />
-            </div> */}
-            {/* BRAND LOGO IMAGE */}
-            {/* <div className="col-sm-4 col-md-3 brand-logo">
-              <img className="img-fluid" src={image300x200} alt="brand-logo" />
-            </div> */}
-            {/* BRAND LOGO IMAGE */}
-            {/* <div className="col-sm-4 col-md-3 brand-logo">
-              <img className="img-fluid" src={image300x200} alt="brand-logo" />
-            </div> */}
-            {/* BRAND LOGO IMAGE */}
-            {/* <div className="col-sm-4 col-md-3 brand-logo">
-              <img className="img-fluid" src={image300x200} alt="brand-logo" />
-            </div> */}
-            {/* BRAND LOGO IMAGE */}
-            {/* <div className="col-sm-4 col-md-3 brand-logo">
-              <img className="img-fluid" src={image300x200} alt="brand-logo" />
-            </div> */}
-            {/* BRAND LOGO IMAGE */}
-            {/* <div className="col-sm-4 col-md-3 brand-logo">
-              <img className="img-fluid" src={image300x200} alt="brand-logo" />
-            </div> */}
-            {/* BRAND LOGO IMAGE */}
-            {/* <div className="col-sm-4 col-md-3 brand-logo">
-              <img className="img-fluid" src={image300x200} alt="brand-logo" />
-            </div> */}
-          {/* </div>	END BRANDS IMAGES */}
-        {/* </div>	 End container */}
-      {/* </div>	  END BRANDS-2 */}
-      {/* TESTIMONIALS-1
-			============================================= */}
-      <section id="reviews-1" className="wide-100 bg-lightgrey reviews-section division">
-        <div className="container">
-          {/* SECTION TITLE */}
-          <div className="row">
-            <div className="col-lg-10 offset-lg-1 section-title">
-              {/* Title 	*/}
-              <h2 className="h2-xs">Client Reviews</h2>
-              {/* Text */}
-              <p>Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero tempus,
-                tempor posuere ligula varius impedit enim tempor sapien
-          </p>
-            </div>
-          </div>	 {/* END SECTION TITLE */}
-          {/* TESTIMONIALS CAROUSEL */}
-          <div className="reviews-carousel">
-            <div className="center slider">
-              {/* TESTIMONIAL #1 */}
-              <div className="review-1">
-                {/* Testimonial Text */}
-                <div className="review-txt">
-                  <p>Etiam sapien sem at sagittis congue augue massa varius egestas magna suscipit magna tempus aliquet
-                    porta rutrum sodales auctor integer risus auctor rutrum
-              </p>
-                </div>
-                {/* Testimonial Author Avatar */}
-                <div className="testimonial-avatar text-center">
-                  <img src={image120x120} alt="review-author-avatar" />
-                  <p className="testimonial-autor">pebz13</p>
-                  <span>Programmer</span>
-                </div>
-              </div>	{/* END TESTIMONIAL #1 */}
-              {/* TESTIMONIAL #2 */}
-              <div className="review-1">
-                {/* Testimonial Text */}
-                <div className="review-txt">
-                  <p>At sagittis congue augue egestas egestas magna ipsum vitae purus ipsum primis in cubilia laoreet
-                    augue egestas luctus donec diam ociis ultrice ligula magna suscipit lectus gestas augue in cubilia
-                    laoreet
-              </p>
-                </div>
-                {/* Testimonial Author Avatar */}
-                <div className="testimonial-avatar clearfix">
-                  <img src={image120x120} alt="review-author-avatar" />
-                  <p className="testimonial-autor">Evelyn Martinez</p>
-                  <span>Housewife</span>
-                </div>
-              </div>	{/* END TESTIMONIAL #2 */}
-              {/* TESTIMONIAL #3 */}
-              <div className="review-1">
-                {/* Testimonial Text */}
-                <div className="review-txt">
-                  <p>Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue augue egestas et ultrice
-                    ligula egestas magna suscipit lectus gestas magna suscipit luctus undo
-              </p>
-                </div>
-                {/* Testimonial Author Avatar */}
-                <div className="testimonial-avatar clearfix">
-                  <img src={image120x120} alt="review-author-avatar" />
-                  <p className="testimonial-autor">Robert Peterson</p>
-                  <span>SEO Manager</span>
-                </div>
-              </div>	{/* END TESTIMONIAL #3 */}
-            </div>
-          </div>	{/* TESTIMONIALS CAROUSEL */}
-        </div>	   {/* End container */}
-      </section>	{/* END TESTIMONIALS-1 */}
       
       <Footer />
 
