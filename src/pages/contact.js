@@ -117,7 +117,7 @@ class Contact extends Component {
                         {
                           formSubmitted
                             ? (
-                              <p>Form Submitted!</p>
+                              <p>Thanks for contacting us! We will get in touch with you shortly.</p>
                             ) : (
                               <ContactForm
                                 name={name}

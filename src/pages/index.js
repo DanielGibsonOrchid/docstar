@@ -40,7 +40,7 @@ const Home = () => (
                   {/* <a href="/services/" className="btn btn-lg btn-yellow tra-hover btn-arrow">
                     <span>Find Out More <i className="fas fa-angle-double-right" /></span>
                   </a> */}
-                  <Link to="/services/" className="btn btn-lg btn-yellow tra-hover btn-arrow">
+                  <Link to="/about/" className="btn btn-lg btn-yellow tra-hover btn-arrow">
                     <span>Find Out More <i className="fas fa-angle-double-right" /></span>
                   </Link>
                 </div>
@@ -203,8 +203,8 @@ const Home = () => (
                       {/* Project Description */}
                       <div className="project-description white-color">
                         {/* Project Meta */}
-                        <span className="yellow-color">Architecture</span>
-                        {/* Project Titlek */}
+                        {/* <span className="yellow-color">Architecture</span> */}
+                        {/* Project Title */}
                         <h5 className="h5-sm">Project Preview</h5>
                       </div>
                     </Link>
@@ -221,8 +221,8 @@ const Home = () => (
                       {/* Project Description */}
                       <div className="project-description white-color">
                         {/* Project Meta */}
-                        <span className="yellow-color">Construction</span>
-                        {/* Project Titlek */}
+                        {/* <span className="yellow-color">Construction</span> */}
+                        {/* Project Title */}
                         <h5 className="h5-sm">Project Preview</h5>
                       </div>
                     </Link>
@@ -239,8 +239,8 @@ const Home = () => (
                       {/* Project Description */}
                       <div className="project-description white-color">
                         {/* Project Meta */}
-                        <span className="yellow-color">Interior Design</span>
-                        {/* Project Titlek */}
+                        {/* <span className="yellow-color">Interior Design</span> */}
+                        {/* Project Title */}
                         <h5 className="h5-sm">Project Preview</h5>
                       </div>
                     </Link>
