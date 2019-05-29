@@ -42,7 +42,7 @@ const HeaderScripts = () => (
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png" /> */}
     
     {/* GOOGLE FONTS */}
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet" /> 		
+    {/* <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet" /> 		 */}
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet" /> 
 
     {/* BOOTSTRAP CSS */}

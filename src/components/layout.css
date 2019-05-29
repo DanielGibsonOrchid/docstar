@@ -1,4 +1,4 @@
-html {
+/* html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -218,7 +218,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  /* margin-bottom: 1.45rem; */
+  margin-bottom: 1.45rem;
 }
 h1 {
   margin-left: 0;
@@ -619,4 +619,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
+} */

@@ -15,3 +15,6 @@ import "./src/css/responsive.css"
 import "./src/css/slick-theme.css"
 import "./src/css/slick.css"
 import "./src/css/style.css" 	
+
+require('typeface-roboto');
+require('typeface-montserrat');

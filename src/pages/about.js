@@ -20,7 +20,7 @@ const About = () => (
       <HeaderMenu />
 
       {/* ABOUT PAGE HERO ============================================= */}	
-      <section id="about-hero" className="bg-scroll page-hero-section division">
+      <section id="about-hero" className="bg-scroll page-hero-section content-about-text1 division">
         <div className="container">	
           <div className="row">
             
@@ -61,7 +61,7 @@ const About = () => (
                 </span>
                 
                 {/* Title */}	
-                <h3 className="h3-xl txt-600">
+                <h3 className="h3-sm txt-700">
                   Wouldn’t you rather focus on the job than the paperwork?  
                 </h3>
                 
@@ -117,7 +117,7 @@ const About = () => (
                 </span>
                 
                 {/* Title */}	
-                <h3 className="h3-xl txt-600">
+                <h3 className="h3-sm txt-700">
                   Dont let your documentation get left behind. 
                 </h3>
                 
@@ -175,7 +175,7 @@ const About = () => (
             <div className="col-lg-10 offset-lg-1 section-title">	
               
               {/* Title 	*/}	
-              <h3 className="h3-xl txt-600">Meet Our Founder</h3>
+              <h3 className="h3-xl txt-700">Meet Our Founder</h3>
               
               {/* Text */}
               <p className="grey-color">Docstar's managing director, Daniel Heynen, has almost 15 years' experience in the New Zealand construction industry, primarily in the building services field, with a natural ability for problem-solving and effective communication.
@@ -186,7 +186,7 @@ const About = () => (
         
         <div className="blue-section">
         <div className="container">
-          <div className="row">
+          <div className="row content-about-founder-row">
             
             <div className="about-founder-image">
               <img className="img-fluid" src={profileImage} alt="about-image" />

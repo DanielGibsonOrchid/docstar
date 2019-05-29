@@ -46,7 +46,7 @@ const Services = () => (
           <div className="row">
             {/* SERVICE BOX #1 */}
             <div className="col-md-6 col-lg-4">
-              <div className="sbox-3 box-icon grey-icon">
+              <div className="sbox-3 box-icon grey-icon content-box-width-300">
                 {/* Icon */}
                 {/* <span className="flaticon-idea" /> */}
                 {/* Text */}
@@ -59,7 +59,7 @@ const Services = () => (
             </div>
             {/* SERVICE BOX #2 */}
             <div className="col-md-6 col-lg-4">
-              <div className="sbox-3 box-icon grey-icon">
+              <div className="sbox-3 box-icon grey-icon content-box-width-300">
                 {/* Icon */}
                 {/* <span className="flaticon-share-2" /> */}
                 {/* Text */}
@@ -72,7 +72,7 @@ const Services = () => (
             </div>
             {/* SERVICE BOX #3 */}
             <div className="col-md-6 col-lg-4">
-              <div className="sbox-3 box-icon grey-icon">
+              <div className="sbox-3 box-icon grey-icon content-box-width-300">
                 {/* Icon */}
                 {/* <span className="flaticon-fingerprint" /> */}
                 {/* Text */}
@@ -85,7 +85,7 @@ const Services = () => (
             </div>
             {/* SERVICE BOX #4 */}
             <div className="col-md-6 col-lg-4">
-              <div className="sbox-3 box-icon grey-icon">
+              <div className="sbox-3 box-icon grey-icon content-box-width-300">
                 {/* Icon */}
                 {/* <span className="flaticon-settings-2" /> */}
                 {/* Text */}
@@ -98,7 +98,7 @@ const Services = () => (
             </div>
             {/* SERVICE BOX #5 */}
             <div className="col-md-6 col-lg-4">
-              <div className="sbox-3 box-icon grey-icon">
+              <div className="sbox-3 box-icon grey-icon content-box-width-300">
                 {/* Icon */}
                 {/* <span className="flaticon-price-tag" /> */}
                 {/* Text */}

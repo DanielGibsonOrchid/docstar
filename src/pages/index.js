@@ -5,7 +5,6 @@ import HeaderScripts from "../components/header-scripts"
 import HeaderMenu from "../components/header-menu"
 import Footer from "../components/footer"
 
-
 import image700x700 from "../images/portfolio/construct-700x700.jpg"
 
 import whyChooseImage from "../images/DocStar-Images/Why-Choose-image@2x.jpg"
@@ -38,9 +37,12 @@ const Home = () => (
                 <p className="p-hero">We're here to help make building documentation simpler - and leave you time to focus on getting the job done.</p>
                 {/* Button */}
                 <div className="hero-btns">
-                  <a href="/services/" className="btn btn-lg btn-yellow tra-hover btn-arrow">
+                  {/* <a href="/services/" className="btn btn-lg btn-yellow tra-hover btn-arrow">
                     <span>Find Out More <i className="fas fa-angle-double-right" /></span>
-                  </a>
+                  </a> */}
+                  <Link to="/services/" className="btn btn-lg btn-yellow tra-hover btn-arrow">
+                    <span>Find Out More <i className="fas fa-angle-double-right" /></span>
+                  </Link>
                 </div>
               </div>
             </div>	{/*END  HERO TEXT */}
@@ -53,7 +55,7 @@ const Home = () => (
         <div className="container">
           <div className="row d-flex align-items-center">
             {/* CONTENT TEXT */}
-            <div className="col-md-6 col-lg-6">
+            <div className="col-md-6 col-lg-6 content-homepage-1">
               <div className="content-txt">
                 {/* Section ID */}
                 <span className="section-id">Why Choose Docstar</span>
@@ -114,15 +116,15 @@ const Home = () => (
                 {/* Text */}
                 <p>Docster provides a professional, functional and accurate O&M manual service, creating building documentation you will be proud to hand over to your client</p>
                 {/* Button */}
-                <a href="services" className="btn btn-yellow btn-arrow">
+                <Link to="/services/" className="btn btn-yellow btn-arrow">
                   <span>Read More <i className="fas fa-angle-double-right" /></span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
           <div className="row d-flex align-items-center">
             {/* ABOUT BOX #2 */}
-            <div className="col-lg-6 bg-yellow">
+            <div className="col-lg-6 bg-docstarblue">
               <div className="row d-flex align-items-center">
                 {/* Image */}
                 <div className="col-md-6 a4-img">
@@ -133,14 +135,14 @@ const Home = () => (
                 {/* Text */}
                 <div className="col-md-6">
                   <div id="a4-2" className="abox-4">
-                    <h5 className="h5-lg">CAD As Built</h5>
-                    <p>Drawing modifications to satisfy project handover requirements</p>
+                    <h5 className="h5-lg white-text-content1">CAD As Built</h5>
+                    <p className="white-text-content2">Drawing modifications to satisfy project handover requirements</p>
                   </div>
                 </div>
               </div>
             </div>
             {/* ABOUT BOX #3 */}
-            <div className="col-lg-6 bg-dark white-color">
+            <div className="col-lg-6 bg-docstardarkblue white-color">
               <div className="row d-flex align-items-center">
                 {/* Image */}
                 <div className="col-md-6 a4-img">
@@ -152,7 +154,7 @@ const Home = () => (
                 <div className="col-md-6">
                   <div id="a4-3" className="abox-4">
                     <h5 className="h5-lg">BIM</h5>
-                    <p>Modelling and coordination</p>
+                    <p className="white-text-content2">Modelling and coordination</p>
                   </div>
                 </div>
               </div>
