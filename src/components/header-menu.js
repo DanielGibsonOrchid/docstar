@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import docstarLogo from "../images/DocStar-Images/TopNAV-DOCSTAR-logo-white@2x.png"
+import docstarLogo from "../images/DocStar-Images/TopNAV-DOCSTAR-logo.jpg"
 
 const HeaderMenu = () => (
 	<div>
@@ -26,9 +26,6 @@ const HeaderMenu = () => (
 					<div id="navbarSupportedContent" className="collapse navbar-collapse">
 						<ul className="navbar-nav ml-auto">
 							<li className="nav-item nl-simple">
-								<Link to="/" className="nav-link">Home</Link>
-							</li>
-							<li className="nav-item nl-simple">
 								<Link to="/about/" className="nav-link">About</Link>
 							</li>
 							<li className="nav-item nl-simple">
@@ -42,7 +39,7 @@ const HeaderMenu = () => (
 								<Link to="/contact/" className="nav-link">Contact</Link>
 							</li>
 							{/* Header Phone Number */}	
-							<span className="navbar-text phone-number yellow-color"><p className="phone-header">DDI +64 27 229 5108</p>
+							<span className="navbar-text phone-number yellow-color"><a href="tel:+64272295108" target="_blank" className="phone-header">DDI: +64 27 229 5108</a>
 							</span>
 						
 						</ul>

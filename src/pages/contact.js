@@ -62,7 +62,7 @@ const Contact = () => (
                   {/* PHONES */}
                   <div className="contact-box">
                     <h5 className="h5-sm">Let’s Talk</h5>
-                    <a href="tel:+64272295108" target="_blank" className="grey-color">DDI: +64 27 229 5108</a>
+                    <a href="tel:+64272295108" className="grey-color">DDI: +64 27 229 5108</a>
                   </div>
 
                   {/* WORKING HOURS */}

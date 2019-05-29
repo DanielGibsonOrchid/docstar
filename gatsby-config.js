@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Docstar Website`,
-    description: `Description`,
+    title: `DocStar`,
+    description: `Enterprise Content Management and AP Automation Solutions`,
     author: `Orchid NZ`,
   },
   plugins: [

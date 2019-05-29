@@ -1915,7 +1915,7 @@ span.section-id {
 }
 
 .navbar {
-  padding: 0.75rem 1rem;
+  /* padding: 0.75rem 1rem; */
   -webkit-transition: all 400ms ease-in-out;
   -moz-transition: all 400ms ease-in-out;
   -o-transition: all 400ms ease-in-out;
@@ -1924,9 +1924,9 @@ span.section-id {
 }
 
 .navbar.bg-tra  {
-  padding: 2.25rem 1rem;
-  /* background-color: transparent;   */
-  background-color: rgba(0, 0, 0, 0.2);
+  /* padding: 2.25rem 1rem; */
+  background-color: transparent;  
+  /* background-color: rgba(0, 0, 0, 0.2); */
 }
 
 /*------------------------------------------*/
@@ -2227,6 +2227,10 @@ span.section-id {
 #hero-24.hero-section .container,
 #hero-25.hero-section .container {
   overflow: visible;
+}
+
+.blue-section {
+  background-color: #199CD8;
 }
 
 /*------------------------------------------*/
@@ -3256,6 +3260,15 @@ span.section-id {
 
 #about-4 .a4-img {
   padding: 0;
+}
+
+.about-founder-image {
+  flex: 1;
+}
+
+.about-founder-text {
+  flex: 1;
+  color: #fff;
 }
 
 /*------------------------------------------*/
@@ -6292,13 +6305,13 @@ span.support-number {
 .footer-icon-3 {
   background-image: url(../images/DocStar-Images/Smile.png);
   width: 54px;
-  height: 54px;
+  height: 56px;
 }
 
 .footer-icon-4 {
-  background-image: url(../images/DocStar-Images/linkedin.png);
+  background-image: url(../images/DocStar-Images/linkedin-v2.png);
   width: 49px;
-  height: 49px;
+  height: 56px;
 }
 
 .footerBox {

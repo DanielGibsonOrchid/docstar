@@ -6,6 +6,7 @@ import Footer from "../components/footer"
 
 import aboutImage550x720 from "../images/DocStar-Images/About-image1@2x.jpg"
 import aboutImage550x740 from "../images/DocStar-Images/About-Image2@2x.jpg"
+import profileImage from "../images/DocStar-Images/DH-profile1.jpg"
 
 
 const About = () => ( 
@@ -180,8 +181,23 @@ const About = () => (
               <p className="grey-color">Docstar's managing director, Daniel Heynen, has almost 15 years' experience in the New Zealand construction industry, primarily in the building services field, with a natural ability for problem-solving and effective communication.
               </p>
             </div>		
-          </div> 	 {/* END SECTION TITLE */}	
-        </div>	   {/* End container */}		
+          </div> 	 {/* END SECTION TITLE */}
+        </div>	   {/* End container */}	
+        
+        <div className="blue-section">
+        <div className="container">
+          <div className="row">
+            
+            <div className="about-founder-image">
+              <img className="img-fluid" src={profileImage} alt="about-image" />
+            </div>
+            <div className="about-founder-text">
+              <p>Daniel is a Chartered Professional Engineer (CPEng), a Chartered Member of Engineering New Zealand (CMEngNZ), and has a Bachelor of Engineering (Mechanical) degree from the University of Auckland. With practical on-site experience, Danial understands both the physical and theoretical aspects of a project.</p>
+            </div>
+
+          </div>	
+        </div>
+        </div>
       </section>	{/* END SERVICES-1 */}
 
       <Footer />

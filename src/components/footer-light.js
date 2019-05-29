@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 import docstarLogo from "../images/DocStar-Images/footer-DOCSTAR-logo-no-words@2x.jpg"
 
@@ -11,7 +12,9 @@ const FooterLight = () => (
     </div>
 
     <div className="footerLogo">
-      <img src= {docstarLogo} alt="Docstar site logo" className="footerImg"/>
+      <Link to="/">
+        <img src={docstarLogo} alt="Docstar site logo" className="footerImg" />
+      </Link>
     </div>
 
     {/* FOOTER COPYRIGHT */}

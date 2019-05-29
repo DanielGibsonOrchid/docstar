@@ -33,7 +33,7 @@ const Footer = () => (
             <div className="contact-box">
               <div className="footer-icon-2" />
               <h5 className="h5-sm">Let's Talk</h5>
-              <a href="tel:+64272295108" target="_blank" className="grey-color">DDI: +64 27 229 5108</a>
+              <a href="tel:+64272295108" className="grey-color">DDI: +64 27 229 5108</a>
             </div>
           </div>
           {/* EMAIL */}
@@ -41,7 +41,7 @@ const Footer = () => (
             <div className="contact-box">
               <div className="footer-icon-3" />
               <h5 className="h5-sm">Drop A Line</h5>
-              <p className="grey-color"><a href="mailto:yourdomain@mail.com">enquiries@docstar.co.nz</a></p>
+              <a href="mailto:enquiries@docstar.co.nz" className="grey-color">enquiries@docstar.co.nz</a>
             </div>
           </div>
           {/* WORKING HOURS */}
