@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import docstarLogo from "../images/DocStar-Images/TopNAV-DOCSTAR-logo.jpg"
+import docstarLogo from "../images/DocStar-Images/TopNAV-DOCSTAR-logo-v2.jpg"
 
 const HeaderMenu = () => (
 	<div>
