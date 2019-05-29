@@ -152,7 +152,7 @@ const Home = () => (
                 </div>
                 {/* Text */}
                 <div className="col-md-6">
-                  <div id="a4-3" className="abox-4">
+                  <div id="a4-3" className="abox-4 home-BIM-box">
                     <h5 className="h5-lg">BIM</h5>
                     <p className="white-text-content2">Modelling and coordination</p>
                   </div>

@@ -41,7 +41,7 @@ const Services = () => (
       </section>	{/* END SERVICES PAGE HERO */}	
       {/* SERVICES-3
         ============================================= */}
-      <section id="services-3" className="wide-50 services-section division">
+      <section id="services-3" className="wide-50-1 services-section division">
         <div className="container">
           <div className="row">
             {/* SERVICE BOX #1 */}
