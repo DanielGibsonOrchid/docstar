@@ -1776,8 +1776,8 @@ span.section-id {
 
 .navbar.bg-tra  {
   /* padding: 2.25rem 1rem; */
-  background-color: transparent;  
-  /* background-color: rgba(0, 0, 0, 0.2); */
+  /* background-color: transparent;   */
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /*------------------------------------------*/
