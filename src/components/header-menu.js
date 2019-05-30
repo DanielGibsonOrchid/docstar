@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import docstarLogo from "../images/DocStar-Images/DOCSTAR-logo-v2.png"
+import docstarLogo from "../images/DocStar-Images/TopNAV-DOCSTAR-logo-white@2x.png"
 
 const HeaderMenu = () => (
 	<div>
@@ -25,6 +25,9 @@ const HeaderMenu = () => (
 					{/* Navigation Menu */}
 					<div id="navbarSupportedContent" className="collapse navbar-collapse">
 						<ul className="navbar-nav ml-auto">
+							<li className="nav-item nl-simple">
+								<Link to="/" className="nav-link">Home</Link>
+							</li>
 							<li className="nav-item nl-simple">
 								<Link to="/about/" className="nav-link">About</Link>
 							</li>
