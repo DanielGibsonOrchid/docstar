@@ -396,6 +396,7 @@ h2.h2-sm { font-size: 3.375rem; }  /* 54px */
 h2.h2-md { font-size: 3.5rem; }    /* 56px */
 h2.h2-lg { font-size: 3.75rem; }   /* 60px */
 h2.h2-xl { font-size: 4rem; }      /* 64px */
+h2.h2-xl-white { font-size: 4rem; color: #fff; }      /* 64px */
 h2.h2-huge { font-size: 4.25rem; }      /* 64px */
 
 /*------------------------------------------*/
@@ -2587,6 +2588,12 @@ span.section-id {
 .hero-price p.p-hero {
   font-size: 1.35rem;
   margin-bottom: 15px;
+}
+
+p.p-hero-white {
+  font-size: 1.35rem;
+  margin-bottom: 40px;
+  color: #fff;
 }
 
 #hero-1 .hero-txt p { 

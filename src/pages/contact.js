@@ -131,9 +131,10 @@ class Contact extends Component {
                             )
                         } */}
                         <form
-                          name="contactform-v3"
+                          name="contactform-v4"
                           method="POST"
                           data-netlify="true"
+                          action="/success"
                           // data-netlify-honeypot="bot-field"
                           className="row contact-form"
                           // onSubmit={onFormSubmit}
