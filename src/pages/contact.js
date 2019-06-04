@@ -97,12 +97,12 @@ const Contact = () => (
                       name="contactform-v5"
                       method="POST"
                       data-netlify="true"
+                      data-netlify-honeypot="bot-field"
                       action="/success"
-                      // data-netlify-honeypot="bot-field"
                       className="row contact-form"
                     // onSubmit={onFormSubmit}
                     >
-                    <input type="hidden" name="contactform-v5" value="contact" />
+                    <input type="hidden" name="form-name" value="contact" />
                       {/* <input
                             type="hidden"
                             name="bot-field"
@@ -162,11 +162,6 @@ const Contact = () => (
                         <button type="submit" className="btn btn-md submit btn-arrow">
                           <span>Send Message <i className="fas fa-angle-double-right" /></span>
                         </button>
-                      </div>
-
-                      {/* Contact Form Message */}
-                      <div className="col-lg-12 contact-form-msg">
-                        <span className="loading" />
                       </div>
                     </form>
                   </div>
