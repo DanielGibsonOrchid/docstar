@@ -102,6 +102,7 @@ const Contact = () => (
                       className="row contact-form"
                     // onSubmit={onFormSubmit}
                     >
+                    <input type="hidden" name="contactform-v5" value="contact" />
                       {/* <input
                             type="hidden"
                             name="bot-field"
