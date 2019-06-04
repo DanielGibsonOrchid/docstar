@@ -3,43 +3,43 @@ import HeaderScripts from "../components/header-scripts"
 import HeaderMenu from "../components/header-menu"
 import FooterLight from "../components/footer-light"
 
-import ContactForm from "../components/contact-form"
+// import ContactForm from "../components/contact-form"
 
 class Contact extends Component {
-  constructor(props) {
-    super(props);
+  // constructor(props) {
+  //   super(props);
 
-    this.props = props;
-  }
+  //   this.props = props;
+  // }
 
-  state = {
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-    formSubmitted: false
-  }
+  // state = {
+  //   name: '',
+  //   email: '',
+  //   subject: '',
+  //   message: '',
+  //   formSubmitted: false
+  // }
 
-  onValueChange = event => {
-    this.setState({
-      [event.target.name]: event.target.value
-    });
-  }
+  // onValueChange = event => {
+  //   this.setState({
+  //     [event.target.name]: event.target.value
+  //   });
+  // }
 
-  onFormSubmit = event => {
-    this.setState({ formSubmitted: true });
+  // onFormSubmit = event => {
+  //   this.setState({ formSubmitted: true });
 
-    event.preventDefault();
-  }
+  //   event.preventDefault();
+  // }
 
   render() {
-    const {
-      name,
-      email,
-      subject,
-      message,
-      formSubmitted
-    } = this.state;
+    // const {
+    //   name,
+    //   email,
+    //   subject,
+    //   message,
+    //   formSubmitted
+    // } = this.state;
 
     return (
       <div>
@@ -131,14 +131,14 @@ class Contact extends Component {
                             )
                         } */}
                         <form
-                          name="contactform-v2"
+                          name="contactform-v3"
                           method="POST"
                           data-netlify="true"
-                          data-netlify-honeypot="bot-field"
+                          // data-netlify-honeypot="bot-field"
                           className="row contact-form"
                           // onSubmit={onFormSubmit}
                         >
-                          <input
+                          {/* <input
                             type="hidden"
                             name="bot-field"
                           />
@@ -146,11 +146,11 @@ class Contact extends Component {
                             type="hidden"
                             name="form-name"
                             value="contact"
-                          />
+                          /> */}
                           {/* Contact Form Input */}
                           <div id="input-name" className="col-lg-6">
                             <input
-                              required
+                              // required
                               type="text"
                               name="name"
                               className="form-control name"
@@ -161,8 +161,8 @@ class Contact extends Component {
                           </div>
                           <div id="input-email" className="col-lg-6">
                             <input
-                              required
-                              type="text"
+                              // required
+                              type="email"
                               name="email"
                               className="form-control email"
                               placeholder="Email Address"
@@ -172,7 +172,7 @@ class Contact extends Component {
                           </div>
                           <div id="input-subject" className="col-lg-12">
                             <input
-                              required
+                              // required
                               type="text"
                               name="subject"
                               className="form-control subject"
@@ -185,7 +185,7 @@ class Contact extends Component {
                             <textarea
                               className="form-control message"
                               name="message"
-                              rows={6}
+                              // rows={6}
                               placeholder="Your Message ..."
                               // value={message}
                               // onChange={onValueChange}
