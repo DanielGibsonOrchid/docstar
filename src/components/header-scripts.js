@@ -18,9 +18,9 @@ const HeaderScripts = () => (
 
     <meta charSet="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="DSAThemes" />	
-    <meta name="description" content="Pergo - A Multipurpose Landing Pages Pack for Startups, Creatives and Freelancers" />
-    <meta name="keywords" content="Responsive, HTML5 template, DSAThemes, One Page, Landing, Startup, Business, Company, Corporate, Creative, Freelancers" />	
+    <meta name="author" content="DocStar" />	
+    <meta name="description" content="DocStar - We're here to help make building documentation simpler - and leave you time to focus on getting the job done." />
+    <meta name="keywords" content="DocStar, building documentation, construction, Digital operating & Maintenance (O&M), CAD as built, BIM" />	
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     {/* SITE TITLE */}
@@ -43,7 +43,7 @@ const HeaderScripts = () => (
     
     {/* GOOGLE FONTS */}
     {/* <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet" /> 		 */}
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet" /> 
+    {/* <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet" />  */}
 
     {/* BOOTSTRAP CSS */}
     {/* <link href="css/bootstrap.min.css" rel="stylesheet" /> */}

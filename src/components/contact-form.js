@@ -9,10 +9,21 @@ const { name, email, message, subject, onValueChange, onFormSubmit } = props;
   
     <form 
       name="contactform" 
+      method="post"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
       className="row contact-form"
       onSubmit={onFormSubmit} 
     >
-      
+      <input 
+        type="hidden"
+        name="bot-field"
+      />
+      <input 
+        type="hidden"
+        name="form-name"
+        value="contact"
+      />
       {/* Contact Form Input */}
       <div id="input-name" className="col-lg-6">
         <input 
