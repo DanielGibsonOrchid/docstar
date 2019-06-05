@@ -29,7 +29,7 @@ const About = () => (
               <div className="hero-txt text-center white-color">
                 
                 {/* Title */}
-                <h2 className="h2-xl">About DOCSTAR</h2>
+                <h2 className="h2-xl">About Docstar</h2>
                 
                 {/* Text */}
                 <p className="p-hero">A company founded from a realisation that many of today's construction and building-related challenges are being solved using yesterday's solutions</p>
@@ -72,7 +72,7 @@ const About = () => (
                 
                 {/* Text */}
                 <p>
-                Technology adoption in construction is lagging behind other sectors, with potentail to increase profit and productivity. <br /> Docstar have created a tried and tested system to help with all your building documentation in a professional, efficient and economical way.
+                Technology adoption in construction is lagging behind other sectors, with potential to increase profit and productivity. <br /> Docstar have created a tried and tested system to help with all your building documentation in a professional, efficient and economical way.
                 </p> 
                 
                 {/* SMALL STATISTIC */}

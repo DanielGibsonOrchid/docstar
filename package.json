@@ -1,7 +1,7 @@
 {
-  "name": "DocStar",
+  "name": "Docstar",
   "private": true,
-  "description": "DocStar Description",
+  "description": "Docstar Description",
   "version": "0.1.0",
   "author": "Orchid",
   "dependencies": {

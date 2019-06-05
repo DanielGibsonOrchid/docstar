@@ -2,12 +2,13 @@ import { Link } from "gatsby"
 import React, { Component } from "react"
 import scrollToElement from "scroll-to-element"
 
-import docstarLogo from "../images/DocStar-Images/TopNAV-DOCSTAR-logo-white@2x.png"
+import docstarLogoWhite from "../images/DocStar-Images/TopNAV-DOCSTAR-logo-white@2x.png"
+import docstarLogoBlue from "../images/DocStar-Images/DOCSTAR-logo-v2.png"
 
 export default class HeaderMenu extends Component {
 	constructor(props) {
 		super(props)
-		this.state = {}
+		this.state = { show: 'is-active'}
 	}
 
 	_handleLinkClick = (e, target) => {
@@ -22,7 +23,27 @@ export default class HeaderMenu extends Component {
 		}
 	}
 
+	// toggleMenu = () => {
+	// 	this.setState({
+	// 		show: !this.state.show
+	// 	})
+	// }
+
+	_handleMobileMenuClick = () => {
+		if (this.state.show === '') {
+			this.setState({
+				show: 'is-active'
+			})
+		} else {
+			this.setState({
+				show: ''
+			})
+		}
+	}
+
 	render() {
+		const mobileMenuShow = this.state.show ? 'is-active' : 'show';
+
 		return (
 			<div>
 				{/* HEADER ============================================= */}
@@ -32,17 +53,23 @@ export default class HeaderMenu extends Component {
 
 							{/* LOGO IMAGE */}
 							{/* For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 284 x 72 pixels)*/}
-							<Link to="/" className="navbar-brand logo-white">
-								<img src={docstarLogo} width={131} height={56} alt="header-logo" />
-							</Link>
+							<div className="menu-logo">
+								<Link to="/" className="navbar-brand logo-white logo-desktop">
+									<img src={docstarLogoWhite} width={131} height={56} alt="header-logo" />
+								</Link>
+
+								<Link to="/" className="navbar-brand logo-mobile">
+									<img src={docstarLogoBlue} width={131} height={56} alt="header-logo" />
+								</Link>
+							</div>
 
 							{/* Responsive Menu Button */}
-							<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<button onClick={e => this._handleMobileMenuClick()} className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 								<span className="navbar-toggler-icon" />
 							</button>
 
 							{/* Navigation Menu */}
-							<div id="navbarSupportedContent" className="collapse navbar-collapse">
+							<div id="navbarSupportedContent" className={`collapse ${mobileMenuShow} navbar-collapse`}>
 								<ul className="navbar-nav ml-auto">
 									<li className="nav-item nl-simple">
 										<Link to="/" className="nav-link">Home</Link>

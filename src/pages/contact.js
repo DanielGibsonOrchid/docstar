@@ -102,16 +102,8 @@ const Contact = () => (
                       className="row contact-form"
                     // onSubmit={onFormSubmit}
                     >
-                    <input type="hidden" name="form-name" value="contact" />
-                      {/* <input
-                            type="hidden"
-                            name="bot-field"
-                          />
-                          <input
-                            type="hidden"
-                            name="form-name"
-                            value="contact"
-                          /> */}
+                      <input type="hidden" name="form-name" value="contact" />
+                      <input type="hidden" name="bot-field" />
                       {/* Contact Form Input */}
                       <div id="input-name" className="col-lg-6">
                         <input
@@ -150,7 +142,7 @@ const Contact = () => (
                         <textarea
                           className="form-control message"
                           name="message"
-                          // rows={6}
+                          rows={6}
                           placeholder="Your Message ..."
                         // value={message}
                         // onChange={onValueChange}

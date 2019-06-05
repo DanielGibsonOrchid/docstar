@@ -112,9 +112,9 @@ const Home = () => (
             <div className="col-md-6">
               <div id="a4-1" className="abox-4">
                 {/* Title */}
-                <h5 className="h5-lg">Digital Operating & Maintenance (O&M)</h5>
+                <h5 className="h5-lg">Digital Operating & Maintenance &#40;O&M&#41; manuals</h5>
                 {/* Text */}
-                <p>Docster provides a professional, functional and accurate O&M manual service, creating building documentation you will be proud to hand over to your client</p>
+                <p>Docstar provides a professional, efficient and accurate O&M manual service, creating building documentation you will be proud to hand over to your client</p>
                 {/* Button */}
                 <Link to="/services/" className="btn btn-yellow btn-arrow">
                   <span>Read More <i className="fas fa-angle-double-right" /></span>
@@ -135,8 +135,8 @@ const Home = () => (
                 {/* Text */}
                 <div className="col-md-6">
                   <div id="a4-2" className="abox-4">
-                    <h5 className="h5-lg white-text-content1">CAD As Built</h5>
-                    <p className="white-text-content2">Drawing modifications to satisfy project handover requirements</p>
+                    <h5 className="h5-lg white-text-content1">CAD As Built drawings</h5>
+                    <p className="white-text-content2">Drawing modifications to reflect the As Built installation and satisfy project handover requirements</p>
                   </div>
                 </div>
               </div>
@@ -154,7 +154,7 @@ const Home = () => (
                 <div className="col-md-6">
                   <div id="a4-3" className="abox-4 home-BIM-box">
                     <h5 className="h5-lg">BIM</h5>
-                    <p className="white-text-content2">Modelling and coordination</p>
+                    <p className="white-text-content2">Subcontractor modelling and coordination</p>
                   </div>
                 </div>
               </div>

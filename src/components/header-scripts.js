@@ -18,13 +18,13 @@ const HeaderScripts = () => (
 
     <meta charSet="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="DocStar" />	
-    <meta name="description" content="DocStar - We're here to help make building documentation simpler - and leave you time to focus on getting the job done." />
-    <meta name="keywords" content="DocStar, building documentation, construction, Digital operating & Maintenance (O&M), CAD as built, BIM" />	
+    <meta name="author" content="Docstar" />	
+    <meta name="description" content="Docstar - We're here to help make building documentation simpler - and leave you time to focus on getting the job done." />
+    <meta name="keywords" content="Docstar, building documentation, construction, Digital operating & Maintenance (O&M), CAD as built, BIM" />	
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     {/* SITE TITLE */}
-    <title>DocStar</title> 
+    <title>Docstar</title> 
     
     {/* FAVICON AND TOUCH ICONS */}
     {/* link={[

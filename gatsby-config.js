@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `DocStar`,
+    title: `Docstar`,
     description: `Enterprise Content Management and AP Automation Solutions`,
-    author: `Orchid NZ`,
+    author: `Orchid`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

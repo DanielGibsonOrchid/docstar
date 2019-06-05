@@ -2042,6 +2042,10 @@ span.section-id {
   display: block;
 }
 
+.menu-logo .logo-mobile {
+  display: none;
+}
+
 .navbar-light.bg-light .logo-white,
 .navbar-dark.bg-tra .logo-black,
 .navbar-light.bg-tra .logo-white,
@@ -3138,7 +3142,7 @@ p.p-hero-white {
 .about-founder-text {
   flex: 1;
   color: #fff;
-  font-weight: 500;
+  font-weight: 400;
   text-align: left;
 }
 

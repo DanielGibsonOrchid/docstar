@@ -543,7 +543,7 @@
 
   .ind-5, .ind-10, .ind-15, .ind-20, .ind-25, .ind-30,
   .ind-35, .ind-40, .ind-45, .ind-50, .ind-60, .ind-70,
-  .ind-80, .ind-90, .ind-100 { padding: 0px; }
+  .ind-80, .ind-90, .ind-100 { padding: 0px !important; }
 
   .wide-100 { padding-top: 80px; padding-bottom: 80px; }
   .wide-90 { padding-top: 80px; padding-bottom: 70px; }
@@ -570,7 +570,7 @@
   h5.h5-xs { font-size: 1.066rem; } /* 16px */
   h5.h5-sm { font-size: 1.111rem; } /* 16.665px */
   h5.h5-md { font-size: 1.14rem; }  /* 17.1px */
-  h5.h5-lg { font-size: 1.15rem; }  /* 17.25px */
+  h5.h5-lg { font-size: 1.15rem !important; }  /* 17.25px */
   h5.h5-xl { font-size: 1.2rem; }  /* 18px */
 
   /* Header H4 */
@@ -582,28 +582,33 @@
 
   /* Header H3 */
   h3.h3-xs { font-size: 1.75rem; }  /* 26.25px */
-  h3.h3-sm { font-size: 1.85rem; }  /* 27.75px */
+  h3.h3-sm { font-size: 1.85rem !important; }  /* 27.75px */
   h3.h3-md { font-size: 1.95rem; }  /* 29.25px */
   h3.h3-lg { font-size: 2.05rem; }  /* 30.75px */
-  h3.h3-xl { font-size: 2.21rem; }  /* 33.15px */
+  h3.h3-xl { font-size: 2.21rem !important; }  /* 33.15px */
 
   /* Header H2 */
-  h2.h2-xs { font-size: 2.26rem; }  /* 34px */
+  h2.h2-xs { font-size: 2.26rem !important; }  /* 34px */
   h2.h2-sm { font-size: 2.33rem; }  /* 35px */
   h2.h2-md { font-size: 2.4rem; }   /* 36px */
   h2.h2-lg { font-size: 2.4rem; }   /* 36px */
   h2.h2-xl { font-size: 2.5rem; }   /* 37.5px */
 
+  .about-founder-text p {
+    padding-right: 0px !important;
+    padding-left: 15px !important;
+  }
+
   /* Paragraphs */
   p.p-sm { font-size: 0.95rem; }   /* 14.25px */
   p { font-size: 1rem; }           /* 15px */
   p.p-md { font-size: 1rem; }      /* 15px */
-  p.p-lg { font-size: 1.05rem; }   /* 15.75px */
+  p.p-lg { font-size: 1.05rem !important; }   /* 15.75px */
   p.p-xl { font-size: 1.1rem; }    /* 16.5px */
 
   /* Buttons */
   .btn.btn-sm { font-size: 0.9rem; padding: 0.8rem 1.75rem; }
-  .btn { font-size: 0.95rem; padding: 0.85rem 1.9rem; }
+  .btn { font-size: 0.95rem !important; padding: 0.85rem 1.9rem !important; }
   .btn.btn-md { font-size: 1rem; padding: 0.875rem 2rem; }
   .btn.btn-lg { font-size: 1rem; padding: 0.925rem 2.15rem; }
 
@@ -698,11 +703,19 @@
 
   /* Section Title */
   .section-title { margin-bottom: 50px; }
-  .section-title p { font-size: 1.1rem; padding: 0 8%; }
+  .section-title p { font-size: 1.1rem !important; padding: 0 8%; }
 
   /*------------------------------------------*/
   /*   NAVIGATION MENU    
   /*------------------------------------------*/
+
+  .menu-logo .logo-mobile {
+    display: block !important;
+  }
+
+  .menu-logo .logo-desktop {
+    display: none !important;
+  }
 
   .bg-light { background-color: #fff!important; box-shadow: 0 0 2px rgba(50, 50, 50, 0.4); }
   .navbar { text-align: center; }
@@ -719,9 +732,9 @@
   .navbar-dark.bg-tra .logo-black, .navbar-light.bg-tra .logo-black, 
   .logo-black, .navbar-light.bg-light .logo-black { display: block; }
 
-  .bg-tra.navbar-dark .nav-link { color: #333; }
+  .bg-tra.navbar-dark .nav-link { color: #333 !important; }
   .bg-tra.navbar-dark .navbar-nav .active > .nav-link { color: rgba(0,0,0,.9); }
-  .navbar-dark .nav-link:focus, .navbar-dark .nav-link:hover { color: #333; background-color: rgba(200, 200, 200, 0.35); }
+  .navbar-dark .nav-link:focus, .navbar-dark .nav-link:hover { color: #333; background-color: rgba(200, 200, 200, 0.35) !important; }
   .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover { color: #333; }
 
   .navbar-nav { padding-top: 15px; }
@@ -830,7 +843,7 @@
   .hero-section h4 span, .hero-section h3 span, .hero-section h2 span { letter-spacing: -1px; padding-bottom: 11px; }
 
   /* Hero Paragraphs */
-  .hero-txt p.p-hero { font-size: 1.1rem; margin-bottom: 30px; }
+  .hero-txt p.p-hero { font-size: 1.1rem !important; margin-bottom: 30px !important; }
   .hero-inner-txt p { margin-bottom: 25px; }
 
   #hero-1 .hero-txt p { padding: 0; }
@@ -897,17 +910,17 @@
   /*------------------------------------------*/
 
   /* INNER PAGE */
-  .page-hero-section { margin-top: 58px; padding-top: 80px; padding-bottom: 80px; }
+  .page-hero-section { margin-top: 58px; padding-top: 80px !important; padding-bottom: 80px !important; }
   .page-hero-section h2 { font-size: 3rem; letter-spacing: -0.5px; }
   .page-hero-section p { padding: 0 2%; margin-top: 5px; }
 
   /* ABOUT */
-  .about-txt h3.h3-sm { margin-bottom: 20px; }
+  .about-txt h3.h3-sm { margin-bottom: 20px !important; }
 
-  #a4-1.abox-4 { padding: 35px 10px; }
+  #a4-1.abox-4 { padding: 35px 10px !important; }
   .abox-4 h5, #a4-1.abox-4 h5 { margin-bottom: 10px; }
-  #a4-1.abox-4 h5 {margin-bottom: 10px; }
-  #a4-1 .btn { margin-top: 5px; }
+  #a4-1.abox-4 h5 {margin-bottom: 10px !important; }
+  #a4-1 .btn { margin-top: 5px !important; }
 
   .about-btn { margin-top: 25px; }
 
@@ -1257,6 +1270,14 @@
   /*   NAVIGATION MENU    
   /*------------------------------------------*/
 
+  .menu-logo .logo-mobile {
+    display: block !important;
+  }
+
+  .menu-logo .logo-desktop {
+    display: none !important;
+  }
+
   .navbar-brand { margin-right: 0.5rem; }
 
   .bg-light { background-color: #fff!important; box-shadow: 0 0 2px rgba(50, 50, 50, 0.4); }
@@ -1274,9 +1295,9 @@
   .navbar-dark.bg-tra .logo-black, .navbar-light.bg-tra .logo-black, 
   .logo-black, .navbar-light.bg-light .logo-black { display: block; }
 
-  .bg-tra.navbar-dark .nav-link { color: #333; }
+  .bg-tra.navbar-dark .nav-link { color: #333 !important; }
   .bg-tra.navbar-dark .navbar-nav .active > .nav-link { color: rgba(0,0,0,.9); }
-  .navbar-dark .nav-link:focus, .navbar-dark .nav-link:hover { color: #333; background-color: rgba(200, 200, 200, 0.35); }
+  .navbar-dark .nav-link:focus, .navbar-dark .nav-link:hover { color: #333; background-color: rgba(200, 200, 200, 0.35) !important; }
   .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover { color: #333; }
 
   .navbar-nav { padding-top: 15px; }
@@ -1481,7 +1502,7 @@
   .btn.btn-sm { font-size: 0.875rem; padding: 0.7rem 1.6rem; }
   .btn { font-size: 0.95rem; padding: 0.8rem 1.75rem; }
   .btn.btn-md { font-size: 0.975rem; padding: 0.85rem 1.9rem; }
-  .btn.btn-lg { font-size: 1rem; padding: 0.875rem 2rem; }
+  .btn.btn-lg { font-size: 1rem !important; padding: 0.875rem 2rem !important; }
 
   .btn-arrow:hover span, .btn-arrow:focus span { -webkit-transform: translate3d(-7px, 0, 0); transform: translate3d(-7px, 0, 0); }
   .btn-arrow:hover .svg-inline--fa, .btn-arrow:focus .svg-inline--fa { opacity: 1; right: -15px; }
@@ -1644,11 +1665,11 @@
   #hero-20 h2 { font-size: 3.5rem; margin-top: 20px; margin-bottom: 35px; }
   #hero-21 .hero-txt h2 { font-size: 2.75rem;margin-bottom: 20px;}
   #hero-22 .hero-txt h2 { font-size: 2.75rem; }
-  #hero-23 .hero-txt h2 { font-size: 3rem;margin-bottom: 20px; }
+  #hero-23 .hero-txt h2 { font-size: 3rem !important;margin-bottom: 20px !important; }
   #hero-24 .hero-txt h2 { font-size: 8rem;letter-spacing: -3px; margin-top: 12px; margin-bottom: 12px; }
   #hero-24 .hero-txt h3 { font-size: 1.85rem; }
   #hero-25 .hero-txt h2 { font-size: 2.75rem; }
-  #hero-26 .hero-txt h2 { font-size: 3.5rem; margin-bottom: 10px; }
+  #hero-26 .hero-txt h2 { font-size: 3.5rem !important; margin-bottom: 10px !important; }
   #hero-26 .hero-txt h3 { font-size: 1.35rem; margin-bottom: 5px; }
   #hero-26 .hero-price h2 { font-size: 3.5em; margin-bottom: 5px; }
   #hero-26 .hero-price h4 { font-size: 1.1rem; margin-bottom: 15px; }
@@ -1660,7 +1681,7 @@
   .hero-section h4 span, .hero-section h3 span, .hero-section h2 span { letter-spacing: -1px; padding-bottom: 11px; }
 
   /* Hero Paragraphs */
-  .hero-txt p.p-hero { font-size: 1.05rem; margin-bottom: 25px; }
+  .hero-txt p.p-hero { font-size: 1.05rem !important; margin-bottom: 25px !important; }
   .hero-inner-txt p { margin-bottom: 25px; }
 
   #hero-1 .hero-txt p, #hero-15 .hero-txt p { padding: 0; }
@@ -1674,7 +1695,7 @@
 
   #hero-19 .hero-txt p, #hero-21 .hero-txt p, #hero-24 .hero-txt p, #hero-29 .hero-txt p { padding: 0 8%; }
   #hero-22 .hero-txt p, #hero-27 .hero-txt p { padding: 0 8%; }
-  #hero-23 .hero-txt p { padding: 0 5%; }
+  #hero-23 .hero-txt p { padding: 0 5% !important; }
   #hero-24 .hero-txt p  { margin-top: 20px; padding: 0 8%; }
 
   /* Hero Buttons */
@@ -2530,7 +2551,7 @@
   #hero-20 h2 { font-size: 2.5rem; margin-top: 20px; margin-bottom: 35px; }
   #hero-21 .hero-txt h2 { font-size: 2.25rem;margin-bottom: 20px;}
   #hero-22 .hero-txt h2 { font-size: 2.25rem; }
-  #hero-23 .hero-txt h2 { font-size: 2.5rem;margin-bottom: 20px; }
+  #hero-23 .hero-txt h2 { font-size: 2.5rem!important;margin-bottom: 20px!important;}
   #hero-24 .hero-txt h2 { font-size: 6rem;letter-spacing: -3px; margin-top: 12px; margin-bottom: 12px; }
   #hero-24 .hero-txt h3 { font-size: 1.5rem; }
   #hero-25 .hero-txt h2 { font-size: 2.25rem; }
@@ -2546,8 +2567,8 @@
   .hero-section h4 span, .hero-section h3 span, .hero-section h2 span { letter-spacing: -1px; padding-bottom: 11px; }
 
   /* Hero Paragraphs */
-  .hero-txt p.p-hero { font-size: 1.05rem; margin-bottom: 25px; }
-  .hero-inner-txt p { margin-bottom: 25px; }
+  .hero-txt p.p-hero { font-size: 1.05rem !important; margin-bottom: 25px !important; }
+  .hero-inner-txt p { margin-bottom: 25px !important; }
 
   #hero-1 .hero-txt p, #hero-5 .hero-txt p, #hero-15 .hero-txt p { padding: 0; }
 
@@ -2559,7 +2580,7 @@
 
   #hero-19 .hero-txt p, #hero-21 .hero-txt p, #hero-24 .hero-txt p, #hero-29 .hero-txt p { padding: 0 2%; }
   #hero-22 .hero-txt p, #hero-27 .hero-txt p { padding: 0 2%; }
-  #hero-23 .hero-txt p { padding: 0 2%; }
+  #hero-23 .hero-txt p { padding: 0 2% !important; }
   #hero-24 .hero-txt p  { margin-top: 20px; padding: 0 5%; }
 
   /* Hero Buttons */

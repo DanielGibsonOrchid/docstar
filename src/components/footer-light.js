@@ -21,7 +21,7 @@ const FooterLight = () => (
     <div className="row bottom-footer">
       <div className="col-md-12">
         <div className="footer-copyright-light">
-          <p className="m-bottom-0">© 2019 <span>DocStar</span> All Rights Reserved</p>
+          <p className="m-bottom-0">© 2019 <span>Docstar</span> All Rights Reserved</p>
         </div>
       </div>
     </div>	{/* END FOOTER COPYRIGHT */}

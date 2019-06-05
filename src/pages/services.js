@@ -109,6 +109,19 @@ const Services = () => (
                 </div>	
               </div>							
             </div>
+            {/* SERVICE BOX #6 */}
+            <div className="col-md-6 col-lg-4">
+              <div className="sbox-3 box-icon grey-icon content-box-width-300">
+                {/* Icon */}
+                {/* <span className="flaticon-price-tag" /> */}
+                {/* Text */}
+                <div className="sbox-3-txt">
+                  <h5 className="h5-md">BIM Services</h5>
+                  <p className="grey-color">We utilise Autodesk Revit to assist with BIM requirements including updating the construction model to reflect the actual installation, clash detection and coordination with other trades, and input of metadata for operating & maintenance purposes.
+                  </p>
+                </div>	
+              </div>							
+            </div>
           </div>	   {/* End row */}	
         </div>	   {/* End container */}		
       </section>	{/* END SERVICES-3 */}
