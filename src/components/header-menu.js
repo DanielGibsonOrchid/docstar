@@ -19,15 +19,12 @@ export default class HeaderMenu extends Component {
 					// offset: -95,
 					duration: 1000,
 				})
+				this.setState({
+					show: 'is-active'
+				})
 			}
 		}
 	}
-
-	// toggleMenu = () => {
-	// 	this.setState({
-	// 		show: !this.state.show
-	// 	})
-	// }
 
 	_handleMobileMenuClick = () => {
 		if (this.state.show === '') {
@@ -39,6 +36,12 @@ export default class HeaderMenu extends Component {
 				show: ''
 			})
 		}
+	}
+
+	_handleHomepageMobileMenuClick = () => {
+		this.setState({
+			show: 'is-active'
+		})
 	}
 
 	render() {
@@ -58,7 +61,7 @@ export default class HeaderMenu extends Component {
 									<img src={docstarLogoWhite} width={131} height={56} alt="header-logo" />
 								</Link>
 
-								<Link to="/" className="navbar-brand logo-mobile">
+								<Link onClick={e => this._handleHomepageMobileMenuClick()} to="/" className="navbar-brand logo-mobile">
 									<img src={docstarLogoBlue} width={131} height={56} alt="header-logo" />
 								</Link>
 							</div>
@@ -72,7 +75,12 @@ export default class HeaderMenu extends Component {
 							<div id="navbarSupportedContent" className={`collapse ${mobileMenuShow} navbar-collapse`}>
 								<ul className="navbar-nav ml-auto">
 									<li className="nav-item nl-simple">
-										<Link to="/" className="nav-link">Home</Link>
+										<Link 
+											onClick={e => this._handleHomepageMobileMenuClick()}
+											to="/" className="nav-link"
+										>
+											Home
+										</Link>
 									</li>
 									<li className="nav-item nl-simple">
 										<Link to="/about/" className="nav-link">About</Link>
