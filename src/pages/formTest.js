@@ -3,7 +3,7 @@ import React from "react"
 const FormTest = () => (
 
   <form
-    name="contact-test-v2"
+    name="contact"
     method="post"
     action="/success/"
     data-netlify="true"
