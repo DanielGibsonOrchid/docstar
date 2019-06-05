@@ -1,15 +1,16 @@
 import React from 'react'
 
-const ContactForm = (props) => {
+const ContactForm = () => {
 
-const { name, email, message, subject, onValueChange, onFormSubmit } = props;
+// const { name, email, message, subject, onValueChange, onFormSubmit } = props;
 
   return (
 
   
     <form 
-      name="contactform" 
+      name="ContactForm" 
       method="post"
+      action="/success/"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
       className="row contact-form"
@@ -22,29 +23,27 @@ const { name, email, message, subject, onValueChange, onFormSubmit } = props;
       <input 
         type="hidden"
         name="form-name"
-        value="contact"
+        value="contactForm"
       />
       {/* Contact Form Input */}
       <div id="input-name" className="col-lg-6">
         <input 
-          required
           type="text" 
           name="name" 
           className="form-control name" 
           placeholder="Your Name" 
-          value={name}
-          onChange={onValueChange}
+          // value={name}
+          // onChange={onValueChange}
         />
       </div>
       <div id="input-email" className="col-lg-6">
         <input 
-          required
-          type="text" 
+          type="email" 
           name="email" 
           className="form-control email" 
           placeholder="Email Address" 
-          value={email}
-          onChange={onValueChange}
+          // value={email}
+          // onChange={onValueChange}
         />
       </div>
       <div id="input-subject" className="col-lg-12">
@@ -54,8 +53,8 @@ const { name, email, message, subject, onValueChange, onFormSubmit } = props;
           name="subject" 
           className="form-control subject" 
           placeholder="What's this about?" 
-          value={subject}
-          onChange={onValueChange} 
+          // value={subject}
+          // onChange={onValueChange} 
         />
       </div>
       <div id="input-message" className="col-lg-12 input-message">
@@ -65,8 +64,8 @@ const { name, email, message, subject, onValueChange, onFormSubmit } = props;
           name="message" 
           rows={6} 
           placeholder="Your Message ..." 
-          value={message}
-          onChange={onValueChange}  
+          // value={message}
+          // onChange={onValueChange}  
         />
       </div>
 
@@ -78,9 +77,9 @@ const { name, email, message, subject, onValueChange, onFormSubmit } = props;
       </div>
 
       {/* Contact Form Message */}
-      <div className="col-lg-12 contact-form-msg">
+      {/* <div className="col-lg-12 contact-form-msg">
         <span className="loading" />
-      </div>
+      </div> */}
     </form>
 
   )
