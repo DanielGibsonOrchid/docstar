@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/DocStar-Images/TopNAV-DOCSTAR-logo-white@2x.png`, // This path is relative to the root of the site.
+        icon: `src/images/DocStar-Images/DOCSTAR-share-logo.jpg`, // This path is relative to the root of the site.
       },
     },
   ]
