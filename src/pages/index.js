@@ -234,7 +234,7 @@ const Home = () => (
                         {/* Project Meta */}
                         <span className="yellow-color">33 Broadway</span>
                         {/* Project Title */}
-                        <h5 className="h5-sm">Hydraulic & Mechanical O&M manual</h5>
+                        <h5 className="h5-sm">Hydraulic & Mechanical<br /> O&M manual</h5>
                       </div>
                     </Link>
                   </div>
@@ -360,7 +360,7 @@ const Home = () => (
                         {/* Project Meta */}
                         <span className="yellow-color">Long Bay Village</span>
                         {/* Project Title */}
-                        <h5 className="h5-sm">Hydraulic & Mechanical O&M manual</h5>
+                        <h5 className="h5-sm">Hydraulic & Mechanical<br /> O&M manual</h5>
                       </div>
                     </Link>
                   </div>
