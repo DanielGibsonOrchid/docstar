@@ -103,8 +103,8 @@ const Services = () => (
                 {/* <span className="flaticon-price-tag" /> */}
                 {/* Text */}
                 <div className="sbox-3-txt">
-                  <h5 className="h5-md">Miscellaneous construction documentation requirements</h5>
-                  <p className="grey-color">Do you have any other specific construction documentation requirements? Contact us so we can discuss how we can help you.
+                  <h5 className="h5-md">BIM Services</h5>
+                  <p className="grey-color">We utilise Autodesk Revit to assist with BIM requirements including updating the construction model to reflect the actual installation, clash detection and coordination with other trades, and input of metadata for operating & maintenance purposes.
                   </p>
                 </div>	
               </div>							
@@ -116,8 +116,8 @@ const Services = () => (
                 {/* <span className="flaticon-price-tag" /> */}
                 {/* Text */}
                 <div className="sbox-3-txt">
-                  <h5 className="h5-md">BIM Services</h5>
-                  <p className="grey-color">We utilise Autodesk Revit to assist with BIM requirements including updating the construction model to reflect the actual installation, clash detection and coordination with other trades, and input of metadata for operating & maintenance purposes.
+                  <h5 className="h5-md">Miscellaneous construction documentation requirements</h5>
+                  <p className="grey-color">Do you have any other specific construction documentation requirements? Contact us so we can discuss how we can help you.
                   </p>
                 </div>	
               </div>							

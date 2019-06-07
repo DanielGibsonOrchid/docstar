@@ -3856,10 +3856,63 @@ ul.content-list li:last-child {
   margin-bottom: 20px;
 }
 
-.masonry-wrap {
+/* .masonry-wrap {
   display: flex;
+} */
+
+.masonry-wrap {
+  position: relative;
+  height: 1231.77px;
 }
 
+.masonry-wrap .p1, .masonry-wrap .p2, .masonry-wrap .p3, .masonry-wrap .p4, .masonry-wrap .p5, .masonry-wrap .p6, .masonry-wrap .p7, .masonry-wrap .p8, .masonry-wrap .p9 {
+  position: absolute;
+}
+
+.masonry-wrap .p1 {
+  left: 0%;
+  top: 0px;
+}
+
+.masonry-wrap .p2 {
+  left: 33.3296%;
+  top: 0px;
+}
+
+.masonry-wrap .p3 {
+  left: 66.6593%;
+  top: 0px;
+}
+
+.masonry-wrap .p4 {
+  left: 0%;
+  top: 376.625px;
+}
+
+.masonry-wrap .p5 {
+  left: 66.6593%;
+  top: 376.625px;
+}
+
+.masonry-wrap .p6 {
+  left: 33.3296%;
+  top: 478.516px;
+}
+
+.masonry-wrap .p7 {
+  left: 66.6593%;
+  top: 753.25px;
+}
+
+.masonry-wrap .p8 {
+  left: 0%;
+  top: 855.141px;
+}
+
+.masonry-wrap .p9 {
+  left: 33.3296%;
+  top: 855.141px;
+}
 /*------------------------------------------*/
 /*    Portfolio Image Meta
 /*------------------------------------------*/
