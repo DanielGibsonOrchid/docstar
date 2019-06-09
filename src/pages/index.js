@@ -7,17 +7,17 @@ import Footer from "../components/footer"
 
 import image700x700 from "../images/portfolio/construct-700x700.jpg"
 
-import whyChooseImage from "../images/DocStar-Images/Why-Choose-image@2x.jpg"
+import whyChooseImage from "../images/DocStar-Images/homepage-why-choose-laptop.jpg"
 import OMImage from "../images/DocStar-Images/O&M-image@2x.jpg"
 import CADImage from "../images/DocStar-Images/CAD-image@2x.jpg"
 import BIMImage from "../images/DocStar-Images/BIM-image@2x.jpg"
 
-import broadway from "../images/DocStar-Images/33-Broadway-700x700.jpg"
+import broadway from "../images/DocStar-Images/33-Broadway-700x900.jpg"
 import armagh from "../images/DocStar-Images/Armagh-Apartments-700x700.jpg"
 import fpBuilding from "../images/DocStar-Images/FP-Building-700x700.jpg"
-import lesMills from "../images/DocStar-Images/Les-Mills-development-700x700.jpg"
+import lesMills from "../images/DocStar-Images/Les-Mills-development-700x900.jpg"
 import lifeApart from "../images/DocStar-Images/Life-apartments-700x700.jpg"
-import longBay from "../images/DocStar-Images/Long-Bay-village-700x700.jpg"
+import longBay from "../images/DocStar-Images/Long-Bay-village-700x900.jpg"
 import aoTawh from "../images/DocStar-Images/Ao-Tawhiti-700x700.jpg"
 import building507 from "../images/DocStar-Images/Building-507-Park West-700x700.jpg"
 import horizon from "../images/DocStar-Images/Horizon-Hotel-700x700.jpg"
@@ -245,14 +245,14 @@ const Home = () => (
                     {/* Image Zoom */}
                     <Link to="/services/" className="image-link">
                       {/* Project Preview Image */}
-                      <img className="img-fluid" src={lesMills} alt="Les Mills development" />
+                      <img className="img-fluid" src={aoTawh} alt="Ao Tawhiti Unlimited Discovery" />
                       <div className="item-overlay" />
                       {/* Project Description */}
                       <div className="project-description white-color">
                         {/* Project Meta */}
-                        <span className="yellow-color">Les Mills development</span>
+                        <span className="yellow-color">Ao Tawhiti Unlimited Discovery</span>
                         {/* Project Title */}
-                        <h5 className="h5-sm">Mechanical O&M manual</h5>
+                        <h5 className="h5-sm">Hydraulic O&M manual</h5>
                       </div>
                     </Link>
                   </div>
@@ -263,14 +263,14 @@ const Home = () => (
                     {/* Image Zoom */}
                     <Link to="/services/" className="image-link">
                       {/* Project Preview Image */}
-                      <img className="img-fluid" src={aoTawh} alt="Ao Tawhiti Unlimited Discovery" />
+                      <img className="img-fluid" src={lesMills} alt="Les Mills development" />
                       <div className="item-overlay" />
                       {/* Project Description */}
                       <div className="project-description white-color">
                         {/* Project Meta */}
-                        <span className="yellow-color">Ao Tawhiti Unlimited Discovery</span>
+                        <span className="yellow-color">Les Mills development</span>
                         {/* Project Title */}
-                        <h5 className="h5-sm">Hydraulic O&M manual</h5>
+                        <h5 className="h5-sm">Mechanical O&M manual</h5>
                       </div>
                     </Link>
                   </div>
@@ -317,14 +317,14 @@ const Home = () => (
                     {/* Image Zoom */}
                     <Link to="/services/" className="image-link">
                       {/* Project Preview Image */}
-                      <img className="img-fluid" src={fpBuilding} alt="F&P Healthcare" />
+                      <img className="img-fluid" src={longBay} alt="Long Bay Village" />
                       <div className="item-overlay" />
                       {/* Project Description */}
                       <div className="project-description white-color">
                         {/* Project Meta */}
-                        <span className="yellow-color">F&P Healthcare</span>
+                        <span className="yellow-color">Long Bay Village</span>
                         {/* Project Title */}
-                        <h5 className="h5-sm">Electrical O&M</h5>
+                        <h5 className="h5-sm">Hydraulic & Mechanical<br /> O&M manual</h5>
                       </div>
                     </Link>
                   </div>
@@ -353,14 +353,14 @@ const Home = () => (
                     {/* Image Zoom */}
                     <Link to="/services/" className="image-link">
                       {/* Project Preview Image */}
-                      <img className="img-fluid" src={longBay} alt="Long Bay Village" />
+                      <img className="img-fluid" src={fpBuilding} alt="F&P Healthcare" />
                       <div className="item-overlay" />
                       {/* Project Description */}
                       <div className="project-description white-color">
                         {/* Project Meta */}
-                        <span className="yellow-color">Long Bay Village</span>
+                        <span className="yellow-color">F&P Healthcare</span>
                         {/* Project Title */}
-                        <h5 className="h5-sm">Hydraulic & Mechanical<br /> O&M manual</h5>
+                        <h5 className="h5-sm">Electrical O&M</h5>
                       </div>
                     </Link>
                   </div>

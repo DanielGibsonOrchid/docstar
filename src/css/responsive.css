@@ -1442,6 +1442,12 @@
   /*   CONTENT
   /*------------------------------------------*/
 
+  /* About page */
+  .about-flex {
+    flex-direction: column;
+  }
+
+
   /* INNER PAGE */
   .page-hero-section { margin-top: 58px; padding-top: 80px; padding-bottom: 80px; }
   .page-hero-section p { padding: 0 2%; margin-top: 5px; }
@@ -1522,12 +1528,17 @@
   .bg-dark .bottom-footer { padding-bottom: 50px; }
 
   .about-founder-image img {
-    padding-left: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
   }
 
   .about-founder-text p {
     padding-left: 1rem;
-    padding-right: 0rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  .about-founder-image, .about-founder-image img {
+    width: 100%;
   }
 
 

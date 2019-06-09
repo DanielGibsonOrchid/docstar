@@ -5,7 +5,7 @@ import HeaderMenu from "../components/header-menu"
 import Footer from "../components/footer"
 
 import aboutImage550x720 from "../images/DocStar-Images/About-image1@2x.jpg"
-import aboutImage550x740 from "../images/DocStar-Images/About-Image2@2x.jpg"
+import buildingImage from "../images/DocStar-Images/about-building-550x740.jpg"
 import profileImage from "../images/DocStar-Images/DH-profile1.jpg"
 
 
@@ -159,7 +159,7 @@ const About = () => (
             {/* CONTENT IMAGE */}
             <div className="col-md-6 col-lg-5 offset-lg-1">
               <div className="content-img">
-                <img className="img-fluid" src={aboutImage550x740} alt="content-image" />
+                <img className="img-fluid" src={buildingImage} alt="content-image" />
               </div>
             </div>
           </div>	   {/* End row */}		
@@ -186,13 +186,13 @@ const About = () => (
         
         <div className="blue-section">
         <div className="container">
-          <div className="row content-about-founder-row">
+          <div className="row content-about-founder-row about-flex">
             
             <div className="about-founder-image">
               <img className="img-fluid" src={profileImage} alt="about-image" />
             </div>
             <div className="about-founder-text">
-              <p>Daniel is a Chartered Professional Engineer (CPEng), a Chartered Member of Engineering New Zealand (CMEngNZ), and has a Bachelor of Engineering (Mechanical) degree from the University of Auckland. With practical on-site experience, Danial understands both the physical and theoretical aspects of a project.</p>
+              <p>Daniel is a Chartered Professional Engineer (CPEng), a Chartered Member of Engineering New Zealand (CMEngNZ), and has a Bachelor of Engineering (Mechanical) degree from the University of Auckland. With practical on-site experience, Daniel understands both the physical and theoretical aspects of a project.</p>
             </div>
 
           </div>	
