@@ -3989,7 +3989,7 @@ ul.content-list li:last-child {
 /*    Image Hover Effect 
 /*------------------------------------------*/ 
 
-.hover-overlay:hover img {
+.hover-overlay:hover img, .hover-overlay:active img {
   transform: scale(1);
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
@@ -3997,12 +3997,12 @@ ul.content-list li:last-child {
   -moz-transform: scale(1);
 }
 
-.hover-overlay:hover .item-overlay {
+.hover-overlay:hover .item-overlay, .hover-overlay:active .item-overlay {
   opacity: 1; 
   -moz-opacity: 1; 
 }
 
-.portfolio-item:hover .project-description {
+.portfolio-item:hover .project-description, .portfolio-item:active .project-description {
   left: 8%; 
   opacity: 1; 
   -moz-opacity: 1; 
