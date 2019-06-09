@@ -205,20 +205,19 @@ const Home = () => (
               <div className="masonry-wrap grid-loaded">
               {/* IMAGE #1 */}
               <div className="portfolio-item p1 interior">
+                  
                   <div className="hover-overlay">
                     {/* Image Zoom */}
-                    <Link to="/services/" className="image-link">
-                      {/* Project Preview Image */}
-                      <img className="img-fluid" src={horizon} alt="Horizon Hotel" />
-                      <div className="item-overlay" />
-                      {/* Project Description */}
-                      <div className="project-description white-color">
-                        {/* Project Meta */}
-                        <span className="yellow-color">Horizon Hotel</span>
-                        {/* Project Title */}
-                        <h5 className="h5-sm">Electrical & Data O&M manual</h5>
-                      </div>
-                    </Link>
+                    {/* Project Preview Image */}
+                    <img className="img-fluid" src={horizon} alt="Horizon Hotel" />
+                    <div className="item-overlay" />
+                    {/* Project Description */}
+                    <div className="project-description white-color">
+                      {/* Project Meta */}
+                      <span className="yellow-color">Horizon Hotel</span>
+                      {/* Project Title */}
+                      <h5 className="h5-sm">Electrical & Data O&M manual</h5>
+                    </div>
                   </div>
                 </div>	{/* END IMAGE #1 */}
                 {/* IMAGE #2 */}
