@@ -176,7 +176,7 @@ const Home = () => (
       {/* PORTFOLIO-1
 			============================================= */}
       <section id="portfolio-1" className="wide-80 portfolio-section division">
-        <div className="container">
+        <div className="container" onClick="void(0)">
           {/* SECTION TITLE */}
           <div className="row">
             <div className="col-lg-10 offset-lg-1 section-title">
