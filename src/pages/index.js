@@ -71,7 +71,7 @@ const Home = () => (
                 {/* Section ID */}
                 <span className="section-id">Why Choose Docstar</span>
                 {/* Title */}
-                <h3 className="h3-sm">We specialize in digital building documentation</h3>
+                <h3 className="h3-sm">We specialise in digital building documentation</h3>
                 {/* Text */}
                 <p className="p-lg grey-color">Our purpose is to assist contractors in construction</p>
                 {/* Text */}
