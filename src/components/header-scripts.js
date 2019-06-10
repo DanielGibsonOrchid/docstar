@@ -21,7 +21,8 @@ const HeaderScripts = () => (
       <meta name="author" content="Docstar" />
       <meta name="description" content="Docstar - We're here to help make building documentation simpler - and leave you time to focus on getting the job done." />
       <meta name="keywords" content="Docstar, building documentation, construction, Digital operating & Maintenance (O&M), CAD as built, BIM" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width" />
+      {/* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */}
 
       {/* Image sharing of website */}
       <meta property="og:title" content="Docstar" />
