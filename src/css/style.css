@@ -5141,9 +5141,9 @@ p.testimonial-autor.deepblue-color {
   background-image: url(../images/tra-map.png);
 }
 
-.brands-section.bg-image {
+/* .brands-section.bg-image {
   background-image: url(../images/1-1920x1080.jpg);
-}
+} */
 
 /*------------------------------------------*/
 /*    BRANDS LOGO HOLDER
@@ -5802,9 +5802,9 @@ a.share-ico:hover {
   23.  NEWSLETTER
   =========================================================================== */
 
-.newsletter-section.bg-image {
+/* .newsletter-section.bg-image {
   background-image: url(../images/1-1920x1080.jpg);
-}
+} */
 
 .newsletter-section.bg-purple,
 .newsletter-section.bg-deeppurple {
