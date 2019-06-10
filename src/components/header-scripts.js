@@ -41,8 +41,8 @@ const HeaderScripts = () => (
       { rel: "icon", type: "image/png", sizes: "120x120", href: `${favicon120}` },
       { rel: "icon", type: "image/png", sizes: "152x152", href: `${favicon152}` },
     ]} */}
-      <link rel="shortcut icon" href={favicon} type="image/x-icon" />
-      <link rel="icon" href={favicon} type="image/x-icon" />
+      <link rel="shortcut icon" href={favicon} type="image/ico" />
+      <link rel="icon" href={favicon} type="image/ico" />
       {/* <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png" />
     <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png" />    
     <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png" />
