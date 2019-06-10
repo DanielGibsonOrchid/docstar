@@ -3576,7 +3576,7 @@ ul.content-list li:last-child {
   margin-bottom: 40px;
 }
 
-.content-3-img { 
+/* .content-3-img { 
   background-image: url(../images/hero1-1920x1080.jpg); 
   background-repeat: no-repeat;
   background-position: center center;   
@@ -3586,10 +3586,10 @@ ul.content-list li:last-child {
   bottom: 0;
   width: 50%;
   left: 0;
-}
+} */
 
 
-.content-4-img { 
+/* .content-4-img { 
   background-image: url(../images/hero1-1920x1080.jpg); 
   background-repeat: no-repeat;
   background-position: center center;   
@@ -3599,7 +3599,7 @@ ul.content-list li:last-child {
   bottom: 0;
   width: 50%;
   left: 50%;
-}
+} */
 
 
 .content-right-img {
