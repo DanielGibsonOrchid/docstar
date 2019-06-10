@@ -3965,6 +3965,10 @@ ul.content-list li:last-child {
   transition: transform 400ms;
 }
 
+.non-link-mobile {
+  display: none;
+}
+
 /*------------------------------------------*/
 /*    Overlay Background 
 /*------------------------------------------*/ 

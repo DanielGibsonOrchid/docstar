@@ -205,8 +205,26 @@ const Home = () => (
               <div className="masonry-wrap grid-loaded">
               {/* IMAGE #1 */}
               <div className="portfolio-item p1 interior">
+
+                {/* Desktop view */}
+                <div className="hover-overlay link-desktop">
+                    {/* Image Zoom */}
+                    <Link to="/services/" className="image-link">
+                      {/* Project Preview Image */}
+                      <img className="img-fluid" src={horizon} alt="Horizon Hotel" />
+                      <div className="item-overlay" />
+                      {/* Project Description */}
+                      <div className="project-description white-color">
+                        {/* Project Meta */}
+                        <span className="yellow-color">Horizon Hotel</span>
+                        {/* Project Title */}
+                        <h5 className="h5-sm">Electrical & Data O&M manual</h5>
+                      </div>
+                    </Link>
+                  </div>
                   
-                  <div className="hover-overlay">
+                  {/* Mobile & Tablet view */}
+                  <div className="hover-overlay non-link-mobile">
                     {/* Image Zoom */}
                     {/* Project Preview Image */}
                     <img className="img-fluid" src={horizon} alt="Horizon Hotel" />
@@ -220,9 +238,12 @@ const Home = () => (
                     </div>
                   </div>
                 </div>	{/* END IMAGE #1 */}
+
                 {/* IMAGE #2 */}
                 <div className="portfolio-item p2 architecture">
-                  <div className="hover-overlay">
+                  
+                  {/* Desktop view */}
+                  <div className="hover-overlay link-desktop">
                     {/* Image Zoom */}
                     <Link to="/services/" className="image-link">
                       {/* Project Preview Image */}
@@ -237,10 +258,29 @@ const Home = () => (
                       </div>
                     </Link>
                   </div>
+                  
+                  {/* Mobile & Tablet view */}
+                  <div className="hover-overlay non-link-mobile">
+                    {/* Image Zoom */}
+                    {/* Project Preview Image */}
+                    <img className="img-fluid" src={broadway} alt="33 Broadway" />
+                      <div className="item-overlay" />
+                      {/* Project Description */}
+                      <div className="project-description white-color">
+                        {/* Project Meta */}
+                        <span className="yellow-color">33 Broadway</span>
+                        {/* Project Title */}
+                        <h5 className="h5-sm">Hydraulic & Mechanical<br /> O&M manual</h5>
+                      </div>
+                  </div>
+
                 </div>	{/* END IMAGE #2 */}
+
                 {/* IMAGE #3 */}
                 <div className="portfolio-item p3 interior">
-                  <div className="hover-overlay">
+
+                  {/* Desktop view */}
+                  <div className="hover-overlay link-desktop">
                     {/* Image Zoom */}
                     <Link to="/services/" className="image-link">
                       {/* Project Preview Image */}
@@ -255,10 +295,28 @@ const Home = () => (
                       </div>
                     </Link>
                   </div>
+
+                  {/* Mobile & Tablet view */}
+                  <div className="hover-overlay non-link-mobile">
+                    {/* Image Zoom */}
+                    {/* Project Preview Image */}
+                    <img className="img-fluid" src={aoTawh} alt="Ao Tawhiti Unlimited Discovery" />
+                      <div className="item-overlay" />
+                      {/* Project Description */}
+                      <div className="project-description white-color">
+                        {/* Project Meta */}
+                        <span className="yellow-color">Ao Tawhiti Unlimited Discovery</span>
+                        {/* Project Title */}
+                        <h5 className="h5-sm">Hydraulic O&M manual</h5>
+                      </div>
+                  </div>
                 </div>	{/* END IMAGE #3 */}
+
                 {/* IMAGE #4 */}
                 <div className="portfolio-item p4 interior">
-                  <div className="hover-overlay">
+
+                  {/* Desktop view */}
+                  <div className="hover-overlay link-desktop">
                     {/* Image Zoom */}
                     <Link to="/services/" className="image-link">
                       {/* Project Preview Image */}
@@ -273,10 +331,29 @@ const Home = () => (
                       </div>
                     </Link>
                   </div>
+
+                  {/* Mobile & Tablet view */}
+                  <div className="hover-overlay non-link-mobile">
+                    {/* Image Zoom */}
+                    {/* Project Preview Image */}
+                    <img className="img-fluid" src={lesMills} alt="Les Mills development" />
+                      <div className="item-overlay" />
+                      {/* Project Description */}
+                      <div className="project-description white-color">
+                        {/* Project Meta */}
+                        <span className="yellow-color">Les Mills development</span>
+                        {/* Project Title */}
+                        <h5 className="h5-sm">Mechanical O&M manual</h5>
+                      </div>
+                  </div>
                 </div>	{/* END IMAGE #4 */}
+
                 {/* IMAGE #5 */}
                 <div className="portfolio-item p5 construction">
-                  <div className="hover-overlay">
+                
+                  {/* Desktop view */}
+
+                  <div className="hover-overlay link-desktop">
                     {/* Image Zoom */}
                     <Link to="/services/" className="image-link">
                       {/* Project Preview Image */}
@@ -291,10 +368,28 @@ const Home = () => (
                       </div>
                     </Link>
                   </div>
+
+                  {/* Mobile & Tablet view */}
+                  <div className="hover-overlay non-link-mobile">
+                    {/* Image Zoom */}
+                    {/* Project Preview Image */}
+                    <img className="img-fluid" src={armagh} alt="Armagh Apartments" />
+                      <div className="item-overlay" />
+                      {/* Project Description */}
+                      <div className="project-description white-color">
+                        {/* Project Meta */}
+                        <span className="yellow-color">Armagh Apartments</span>
+                        {/* Project Title */}
+                        <h5 className="h5-sm">Hydraulic O&M</h5>
+                      </div>
+                  </div>
                 </div>	{/* END IMAGE #5 */}
+
                 {/* IMAGE #6 */}
                 <div className="portfolio-item p6 interior">
-                  <div className="hover-overlay">
+
+                  {/* Desktop view */}
+                  <div className="hover-overlay link-desktop">
                     {/* Image Zoom */}
                     <Link to="/services/" className="image-link">
                       {/* Project Preview Image */}
@@ -309,10 +404,28 @@ const Home = () => (
                       </div>
                     </Link>
                   </div>
+
+                  {/* Mobile & Tablet view */}
+                  <div className="hover-overlay non-link-mobile">
+                    {/* Image Zoom */}
+                    {/* Project Preview Image */}
+                    <img className="img-fluid" src={lifeApart} alt="Life Apartments" />
+                      <div className="item-overlay" />
+                      {/* Project Description */}
+                      <div className="project-description white-color">
+                        {/* Project Meta */}
+                        <span className="yellow-color">Life Apartments</span>
+                        {/* Project Title */}
+                        <h5 className="h5-sm">Hydraulic O&M</h5>
+                      </div>
+                  </div>
                 </div>	{/* END IMAGE #6 */}
+
                 {/* IMAGE #7 */}
                 <div className="portfolio-item p7 interior">
-                  <div className="hover-overlay">
+
+                  {/* Desktop view */}
+                  <div className="hover-overlay link-desktop">
                     {/* Image Zoom */}
                     <Link to="/services/" className="image-link">
                       {/* Project Preview Image */}
@@ -327,10 +440,28 @@ const Home = () => (
                       </div>
                     </Link>
                   </div>
+
+                  {/* Mobile & Tablet view */}
+                  <div className="hover-overlay non-link-mobile">
+                    {/* Image Zoom */}
+                    {/* Project Preview Image */}
+                    <img className="img-fluid" src={longBay} alt="Long Bay Village" />
+                      <div className="item-overlay" />
+                      {/* Project Description */}
+                      <div className="project-description white-color">
+                        {/* Project Meta */}
+                        <span className="yellow-color">Long Bay Village</span>
+                        {/* Project Title */}
+                        <h5 className="h5-sm">Hydraulic & Mechanical<br /> O&M manual</h5>
+                      </div>
+                  </div>
                 </div>	{/* END IMAGE #7 */}
+
                 {/* IMAGE #8 */}
                 <div className="portfolio-item p8 interior">
-                  <div className="hover-overlay">
+
+                  {/* Desktop view */}
+                  <div className="hover-overlay link-desktop">
                     {/* Image Zoom */}
                     <Link to="/services/" className="image-link">
                       {/* Project Preview Image */}
@@ -345,10 +476,28 @@ const Home = () => (
                       </div>
                     </Link>
                   </div>
+
+                  {/* Mobile & Tablet view */}
+                  <div className="hover-overlay non-link-mobile">
+                    {/* Image Zoom */}
+                    {/* Project Preview Image */}
+                    <img className="img-fluid" src={building507} alt="Building 507 Park West" />
+                      <div className="item-overlay" />
+                      {/* Project Description */}
+                      <div className="project-description white-color">
+                        {/* Project Meta */}
+                        <span className="yellow-color">Building 507 Park West</span>
+                        {/* Project Title */}
+                        <h5 className="h5-sm">Mechanical O&M</h5>
+                      </div>
+                  </div>
                 </div>	{/* END IMAGE #8 */}
+
                 {/* IMAGE #9 */}
                 <div className="portfolio-item p9 interior">
-                  <div className="hover-overlay">
+
+                  {/* Desktop view */}
+                  <div className="hover-overlay link-desktop">
                     {/* Image Zoom */}
                     <Link to="/services/" className="image-link">
                       {/* Project Preview Image */}
@@ -362,6 +511,21 @@ const Home = () => (
                         <h5 className="h5-sm">Electrical O&M</h5>
                       </div>
                     </Link>
+                  </div>
+
+                  {/* Mobile & Tablet view */}
+                  <div className="hover-overlay non-link-mobile">
+                    {/* Image Zoom */}
+                    {/* Project Preview Image */}
+                    <img className="img-fluid" src={fpBuilding} alt="F&P Healthcare" />
+                      <div className="item-overlay" />
+                      {/* Project Description */}
+                      <div className="project-description white-color">
+                        {/* Project Meta */}
+                        <span className="yellow-color">F&P Healthcare</span>
+                        {/* Project Title */}
+                        <h5 className="h5-sm">Electrical O&M</h5>
+                      </div>
                   </div>
                 </div>	{/* END IMAGE #9 */}
               </div>
